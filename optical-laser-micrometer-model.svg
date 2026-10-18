@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 1600 1300" role="img" aria-labelledby="title desc">
+  <title id="title">Automatic optical diffraction wire micrometer</title>
+  <desc id="desc">A low-power red laser shines through a vertical taut wire onto a matte screen one metre away. A USB webcam images the vertical diffraction fringes and sends video to a laptop that automatically detects minima, computes wire diameter, displays the result and saves a CSV reading.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#536b78"/></marker>
+    <marker id="redArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#c84f4b"/></marker>
+    <marker id="tealArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#16847b"/></marker>
+    <style>
+      text{font-family:Arial,Helvetica,sans-serif;fill:#18303b}
+      .title{font-size:34px;font-weight:700}
+      .sub{font-size:19px;fill:#526b77}
+      .section{font-size:23px;font-weight:700;fill:#173f50}
+      .label{font-size:18px;font-weight:700}
+      .body{font-size:16px;fill:#354d58}
+      .small{font-size:14px;fill:#526b77}
+      .tiny{font-size:12px;fill:#526b77}
+      .panel{fill:#fff;stroke:#d2e0e5;stroke-width:2}
+      .beam{stroke:#c84f4b;stroke-width:4;fill:none;marker-end:url(#redArrow)}
+      .signal{stroke:#16847b;stroke-width:3;fill:none;marker-end:url(#tealArrow)}
+      .dim{stroke:#536b78;stroke-width:2;fill:none;marker-start:url(#arrow);marker-end:url(#arrow)}
+      .mount{fill:#718994;stroke:#3d5965;stroke-width:2}
+      .note{fill:#eaf4f2;stroke:#bddbd4;stroke-width:1.5}
+      .warn{fill:#fff3e6;stroke:#ecd0ac;stroke-width:1.5}
+    </style>
+  </defs>
+  <rect width="1600" height="1300" fill="#f1f6f7"/>
+  <text x="56" y="62" class="title">AUTOMATIC OPTICAL WIRE MICROMETER</text>
+  <text x="58" y="96" class="sub">USB webcam + laptop software: automatic fringe detection, diameter readout and saved results</text>
+
+  <rect x="42" y="126" width="1516" height="600" rx="16" class="panel"/>
+  <text x="70" y="168" class="section">1. Physical build - side view (not to scale)</text>
+  <text x="70" y="197" class="body">Use a labelled low-power red laser. Keep the wire vertical, the beam level, and the card 1500 mm behind the wire.</text>
+
+  <!-- Rigid base -->
+  <rect x="88" y="563" width="1228" height="20" rx="5" fill="#a9bdc4" stroke="#637b86" stroke-width="2"/>
+  <text x="480" y="614" class="label">Rigid optical bench / straight wooden base</text>
+
+  <!-- Laser and clamp -->
+  <rect x="112" y="326" width="155" height="60" rx="9" fill="#273e49" stroke="#122831" stroke-width="2"/>
+  <circle cx="263" cy="356" r="12" fill="#e16d66" stroke="#8e3934" stroke-width="3"/>
+  <rect x="160" y="386" width="50" height="120" rx="5" class="mount"/>
+  <rect x="125" y="506" width="122" height="30" rx="5" class="mount"/>
+  <text x="90" y="279" class="label">LOW-POWER RED LASER</text>
+  <text x="96" y="303" class="small">labelled wavelength; fixed and aligned</text>
+
+  <!-- Taut vertical wire frame -->
+  <rect x="438" y="252" width="26" height="284" rx="5" class="mount"/>
+  <rect x="536" y="252" width="26" height="284" rx="5" class="mount"/>
+  <path d="M451 271q49 -25 98 0M451 516q49 25 98 0" stroke="#526b77" stroke-width="7" fill="none"/>
+  <line x1="500" y1="269" x2="500" y2="519" stroke="#1b2d35" stroke-width="3"/>
+  <circle cx="500" cy="356" r="8" fill="#efb957" stroke="#76551f" stroke-width="2"/>
+  <text x="400" y="220" class="label">VERTICAL SAMPLE WIRE</text>
+  <text x="408" y="241" class="small">gently taut between two clamps</text>
+  <text x="409" y="550" class="tiny">clamps stay above and below the beam</text>
+
+  <!-- Beam and screen -->
+  <path d="M279 356H1140" class="beam"/>
+  <text x="695" y="339" class="small">laser crosses the wire midpoint</text>
+  <rect x="1139" y="251" width="20" height="274" fill="#fbfdfc" stroke="#536b77" stroke-width="2"/>
+  <rect x="1142" y="270" width="3" height="232" fill="#376f69"/>
+  <rect x="1148" y="270" width="3" height="232" fill="#dce9e6"/>
+  <rect x="1154" y="270" width="3" height="232" fill="#376f69"/>
+  <rect x="1162" y="251" width="13" height="274" fill="#293d45"/>
+  <text x="1060" y="219" class="label">MATTE SCREEN</text>
+  <text x="1022" y="241" class="small">vertical bright/dark fringes</text>
+  <text x="1183" y="302" class="small">black beam stop</text>
+  <path d="M1178 311L1170 321" stroke="#526b77" stroke-width="2"/>
+
+  <!-- Webcam, positioned below the beam -->
+  <rect x="1018" y="427" width="84" height="56" rx="8" fill="#304a56" stroke="#17323d" stroke-width="2"/>
+  <circle cx="1036" cy="455" r="13" fill="#111f27" stroke="#a5b7bd" stroke-width="3"/>
+  <path d="M1102 449L1138 390" stroke="#16847b" stroke-width="3" stroke-dasharray="7 5" marker-end="url(#tealArrow)"/>
+  <text x="927" y="511" class="label">USB WEBCAM</text>
+  <text x="903" y="532" class="small">aim at card; focus and lock</text>
+  <text x="887" y="552" class="small">about 30 cm away; below beam</text>
+
+  <!-- Distance ruler -->
+  <line x1="500" y1="535" x2="500" y2="665" stroke="#536b78" stroke-dasharray="5 5"/>
+  <line x1="1148" y1="525" x2="1148" y2="665" stroke="#536b78" stroke-dasharray="5 5"/>
+  <line x1="509" y1="665" x2="1139" y2="665" class="dim"/>
+  <rect x="734" y="645" width="170" height="32" rx="5" fill="#fff"/>
+  <text x="766" y="668" class="label" fill="#16847b">L = 1500 mm</text>
+
+  <rect x="42" y="750" width="1516" height="295" rx="16" class="panel"/>
+  <text x="70" y="792" class="section">2. Fully automatic signal path</text>
+  <rect x="90" y="826" width="270" height="112" rx="12" fill="#e7efef" stroke="#a9c0c2" stroke-width="2"/>
+  <text x="116" y="861" class="label">Diffraction on card</text>
+  <text x="115" y="888" class="small">bright/dark bands captured</text>
+  <text x="115" y="910" class="small">in a live image</text>
+  <path d="M364 882H427" class="signal"/>
+
+  <rect x="437" y="826" width="270" height="112" rx="12" fill="#e7f2ef" stroke="#9bbfb7" stroke-width="2"/>
+  <text x="464" y="861" class="label">USB webcam</text>
+  <text x="461" y="888" class="small">red channel; narrow row average</text>
+  <text x="462" y="910" class="small">no phone; no bare camera sensor</text>
+  <path d="M711 882H774" class="signal"/>
+
+  <rect x="784" y="826" width="300" height="112" rx="12" fill="#e8edf4" stroke="#a9bacb" stroke-width="2"/>
+  <text x="812" y="861" class="label">Laptop + OpenCV</text>
+  <text x="808" y="888" class="small">find central peak and first minima</text>
+  <text x="809" y="910" class="small">reject bad / incomplete patterns</text>
+  <path d="M1088 882H1151" class="signal"/>
+
+  <rect x="1161" y="826" width="326" height="112" rx="12" fill="#f2efe4" stroke="#c8bb91" stroke-width="2"/>
+  <text x="1187" y="861" class="label">Live display + CSV</text>
+  <text x="1183" y="888" class="small">diameter, fringe span, live graph</text>
+  <text x="1184" y="910" class="small">press S to save a valid reading</text>
+
+  <rect x="88" y="962" width="1399" height="55" rx="9" class="note"/>
+  <text x="108" y="986" class="body">At every run, capture a known wire's fringe span; the software compares the unknown span automatically:</text>
+  <text x="108" y="1007" class="label" fill="#16847b">d_unknown = d_reference x span_reference / span_unknown</text>
+
+  <rect x="42" y="1068" width="1516" height="185" rx="16" class="panel"/>
+  <text x="70" y="1107" class="section">3. Build checks before presentation</text>
+  <text x="90" y="1140" class="body">1. Set L = 1.5 m; focus webcam about 30 cm from the screen; keep the setup fixed.</text>
+  <text x="90" y="1167" class="body">2. Use a known reference diameter measured with the college screw gauge for best accuracy.</text>
+  <text x="90" y="1194" class="body">3. With lambda = 650 nm and d = 127 um, expect the first-minimum pair about 15.4 mm apart.</text>
+  <text x="90" y="1221" class="small">No hardware is honestly 100% guaranteed without a check using the actual camera and reference wire.</text>
+  <text x="1120" y="1221" class="tiny">Use a labelled low-power laser under teacher supervision.</text>
+</svg>
