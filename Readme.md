@@ -1,155 +1,294 @@
 
-# Automatic Optical Wire Micrometer
+# Webcam Optical Wire Micrometer
 
-## Final project idea
+## Project overview
 
-A red laser passes a vertical wire and forms a diffraction pattern on a matte
-screen. A USB webcam films the pattern, and a laptop program detects the first
-dark minima, calculates the wire diameter, displays the result, and can save
-measurements. This is a complete automatic demonstration: the unknown wire's
-fringes are read by software, not by eye. The laptop replaces the OV7670/Pico
-camera electronics and display.
+A red laser shines across a thin vertical wire. The wire produces a diffraction
+pattern on a matte screen. A USB webcam views the screen from the **front (the
+laser-facing side)** and sends video to a computer. A Python/OpenCV program
+reads the red brightness profile across the middle of the image, locates two
+dark minima, and estimates the wire diameter.
 
-The college optical bench will be borrowed. The red laser will be purchased,
-and the riders and component holders will be made or adapted to fit that bench.
-Measure the bench rail before making the riders. Choose a labelled low-power
-laser with a stated wavelength and follow the teacher's safety requirements.
+This README describes the code currently supplied as the final program. It
+does **not** use a Raspberry Pi Pico, OV7670 camera, OLED, reference-wire
+calibration, or CSV saving. The computation runs on the computer connected to
+the webcam.
 
-## Physical layout
-
-```text
-SIDE VIEW (not to scale)
-
-  low-power red laser       vertical taut wire          matte screen
-  + beam stop at end               |                  (diffraction bars)
-  [LASER] -------------------------|---------------------- ||
-                                    |       L = 1.5 m        ||
-                                    |                         \
-                                    |                          \
-                                    |             USB webcam ---- USB ---- laptop
-                                    |             about 30 cm from screen
-                                    |             aimed at the screen, below beam
-
-  The webcam sees the pattern on the card. It does not look into the laser beam.
-```
-
-The wire must be vertical and gently taut. Align the laser horizontally through
-the wire's midpoint. Place the matte screen **1.5 m from the wire** and measure
-from the wire plane to the screen plane. Put the webcam below the beam axis,
-about 30 cm in front of the screen, and aim it at the screen from the laser side.
-Keep it outside the beam path. Focus sharply on the card, frame the whole
-pattern, and do not move the camera or screen after calibration. A small black
-hood around the screen/camera reduces room-light glare.
-
-With a 650 nm laser and a 127 µm wire at L = 1.5 m, the first dark minima are
-expected to be about **15.4 mm apart** on the screen. The larger span helps a
-budget webcam resolve the pattern. This is an alignment
-estimate; the software measures the actual image.
-
-## How the project works
-
-1. The wire blocks part of the beam. Light bends around its edges and
-   interferes, making a central bright band with dark minima on either side.
-2. The matte card shows the pattern. The USB webcam sends ordinary video frames
-   to the laptop.
-3. The program averages a narrow horizontal strip through the pattern, finds
-   the central bright maximum and the nearest first minimum on each side, and
-   calculates their separation.
-4. The program converts that separation to a diameter, shows the live image,
-   fringe profile, and result, and saves a valid reading to CSV when **S** is
-   pressed.
-
-The first-minimum relation for a thin wire is approximately
+## Physical arrangement
 
 ```text
-d = 2 * wavelength * wire-to-screen distance / distance between first minima
+SIDE VIEW — not to scale
+
+ laser                 vertical taut wire                 matte screen
+ [red laser] -----------------|-------------------------------||
+                               |<------- 500 mm -------------->||
+                                                               ||  pattern
+                                               webcam -------->||
+                                            (in front, on the laser side)
+                                                               |
+                                                        beam stop behind
+                                                        screen, if needed
+
+ Webcam USB -------------------------------> computer running Python
 ```
 
-The software can use either a physical screen scale or a reference wire. The
-recommended classroom method is the **reference wire ratio**:
+1. Secure the laser and wire holder to the optical bench. Stretch the wire
+   vertically and gently; align the horizontal beam through its midpoint.
+2. Put the matte screen **500 mm from the wire**. Measure from the wire plane
+   to the screen plane. This is the distance used by the current code
+   (`DIST_L_M = 0.500`).
+3. Put the webcam in front of the screen, on the same side as the laser, and
+   aim it at the screen. Keep it below or beside the beam so the beam does not
+   enter the camera lens. Focus on the screen and frame the complete pattern.
+4. Place a ruler flat in the screen plane so two visible marks exactly 50 mm
+   apart can be clicked. This is the image-scale calibration required by the
+   program. Keep the ruler out of the profile area if possible.
+5. Reduce room light and use a beam stop behind the screen. The screen must
+   scatter enough light toward the webcam for the pattern to be visible.
+
+## How the program works
+
+- Opens camera index **1** first, then tries the default camera if that fails.
+- Uses a 650 nm wavelength and a 500 mm wire-to-screen distance, as set near
+  the top of `laser_micrometer.py`.
+- Before producing a diameter, requires two mouse clicks on ruler marks that
+  are exactly 50 mm apart. The clicks set the screen scale in mm per image
+  pixel. Click again after pressing **R** to recalibrate.
+- Averages the webcam's red channel over 20 image rows at the vertical centre.
+- Smooths that profile and searches the middle 30% of the image for dark
+  valleys. It chooses the two strongest accepted valleys and treats their
+  spacing as the distance between the first minima.
+- Calculates the estimated diameter using
+
+  ```text
+  d = 2 × wavelength × wire-to-screen distance / first-minima separation
+  ```
+- Shows the live camera image, profile, detected minima, fringe separation,
+  and estimated diameter.
+
+The 50 mm ruler calibration converts image pixels to screen distance. It does
+not correct perspective or lens distortion, so keep the webcam facing the
+screen as square-on as practical and do not move it after calibration.
+
+## Install and run
+
+Install Python 3 and the required packages:
 
 ```text
-unknown diameter = known reference diameter * reference fringe span / unknown fringe span
+python -m pip install opencv-python numpy scipy
 ```
 
-This ratio uses the same camera, screen, and geometry for both samples. The
-known wire's diameter still needs to come from a screw gauge or a trustworthy
-specification. The app intentionally requires fresh calibration every time it
-starts, so an old camera position cannot silently supply a stale scale.
+From the project folder, run:
 
-## Build and run
+```text
+python laser_micrometer.py
+```
 
-1. Make/adapt riders to fit the borrowed bench. Secure the purchased laser and
-   wire holder to their own riders. Stretch the sample vertically, gently, and
-   align the beam through its midpoint.
-2. Put the matte screen 1500 mm behind the wire. Add a black beam stop behind
-   the screen. Make sure the beam ends there.
-3. Mount the webcam about 30 cm in front of the screen, slightly below the beam.
-   Aim it at the screen; focus until the fringes are sharp. Reduce room light
-   with the hood, and keep the pattern centered in the image.
-4. Connect the webcam to the laptop. Install Python 3.10+ and the packages:
+The camera index is currently set in the script as `CAM_INDEX = 1`. If the
+program opens the wrong camera, change it to `0` (or the index used by your
+computer) and run again. Close video-call and camera apps if they are using
+the webcam.
 
-   ```text
-   python -m pip install opencv-python numpy
-   ```
-5. Start the program (Windows PowerShell example):
+### Controls
 
-   ```text
-   python laser_micrometer.py --camera 0 --distance-mm 1500 --wavelength-nm 650 --reference-diameter-um 127
-   ```
+- **Left-click twice:** calibrate using two ruler marks 50 mm apart.
+- **R:** clear calibration; click the two marks again.
+- **Q:** quit.
 
-   Use the wavelength printed on the laser label/specification. Change camera
-   index to `1` if the USB webcam is camera 1. Close video-call apps first.
-6. For the most dependable classroom readout, place the known reference wire
-   in the holder and wait until the pattern is stable. Press **R** to store its
-   fringe span for this session. Replace it with the unknown sample without
-   moving the laser, camera, screen, or holder. The software now calculates
-   the unknown diameter live.
-7. Press **S** to save a valid result to `measurements.csv`; press **Q** to
-   close the program. If it says **NO VALID FRINGES**, adjust focus, alignment,
-   framing, or room light before recording a result.
+The current code does not save results to a file and does not have an **S**
+measurement-save control.
 
-To use a ruler/scale fixed in the screen plane instead, press **C** and click
-two visible marks exactly 50 mm apart. Keep the scale flat against the screen.
-The webcam must see both marks and the complete diffraction pattern.
+## Important code notes before relying on readings
 
-## What to present
+The program is suitable as a project demonstration, but its current valley
+selection is a simple heuristic. It picks the two strongest valleys in the
+search region; it does not confirm that one is on each side of the central
+maximum, nor that they are the nearest first minima. A reflection, screen
+texture, shadow, or camera artifact could therefore be mistaken for a fringe.
+Only accept a result when the live profile visibly shows a central bright
+maximum and a clear dark minimum on each side, with the blue markers on those
+two minima.
 
-- The physical model showing laser, taut vertical wire, screen, webcam, and
-  laptop signal path.
-- The live camera image with the central peak and two detected first minima
-  marked.
-- The displayed diameter and live intensity profile.
-- A saved CSV reading and a comparison against the screw-gauge value for the
-  reference sample.
-- The diffraction formula and explanation that the wire's shadow pattern is
-  related to the diffraction from a slit of the same width (Babinet's
-  principle).
+Suggested code improvements before final submission:
 
-## Limits and safety
+1. Find the central bright maximum first, then select the nearest valid dark
+   minimum to its left and right. Reject a pair unless it is approximately
+   symmetric around the centre.
+2. Check that `px_dist` is nonzero before calculating `mm_per_pixel`, and
+   reject clicks too close together. Keep clicks on the same horizontal ruler
+   line to avoid scale error from diagonal separation.
+3. Check that the frame is large enough for the Savitzky–Golay window and
+   clamp the 20-row scan band at the image boundaries.
+4. Add optional controls for camera index, laser wavelength, and measured
+   wire-to-screen distance instead of editing constants in the source.
+5. Add a save function only if the project needs a results log; the pasted
+   final code currently has none.
 
-This is a feasible school demonstration, not a guaranteed precision
-instrument. Camera focus, image framing, screen texture, room light, wire
-alignment, and the reference diameter affect the result. Check the full build
-with a known wire before presenting. The code refuses to save when it cannot
-find a plausible pair of minima, but it cannot certify the accuracy of the
-known reference or the hardware.
+For a 650 nm laser, 500 mm distance, and a 127 µm wire, the expected spacing
+between the first minima is about **5.1 mm**. This is a planning estimate;
+actual camera focus, screen scattering, alignment, scale calibration, and
+fringe selection affect the result. Verify the behavior with a known wire
+before presenting and compare against a screw-gauge measurement.
 
-Use only a labelled low-power laser approved by the teacher. Keep it fixed,
-pointed at the screen/beam stop, and switched off when not measuring. Never
-look into the beam or direct it at a person or reflective surface.
+## Safety
+
+Use a labelled, low-power laser approved by your teacher. Secure it so the
+beam terminates at the screen/beam stop. Switch it off when adjusting the
+wire, webcam, or screen. Never look into the beam or aim it at a person or
+reflective surface.
 
 ## Project files
 
-- `laser_micrometer.py` - webcam-based live measurement program.
-- `optical-laser-micrometer-model.svg` - visual layout and signal-flow model.
-- `output/pdf/optical-laser-micrometer-blueprint.pdf` - printable build and
-  project blueprint.
-- `measurements.csv` - created when a valid reading is saved.
+- `laser_micrometer.py` — current webcam-based live analysis program.
+- `optical-laser-micrometer-model.svg` — project layout illustration; update
+  it if its geometry or signal-flow labels disagree with this README.
+- `output/pdf/optical-laser-micrometer-blueprint.pdf` — printable blueprint;
+  check that its distances and calibration description match this 500 mm,
+  ruler-calibrated version before submitting it.
 
-## References
+# Webcam Optical Wire Micrometer
 
-- [Current webcam listings below Rs 500 (price-check only; confirm focus, stock, and delivery)](https://www.smartprix.com/computer_webcams/price-below_500)
-- [OpenCV camera-frame interface](https://docs.opencv.org/4.13.0/d8/dfe/classcv_1_1VideoCapture.html)
-- [Babinet principle and wire diffraction background](https://courses.physics.ucsd.edu/2009/Fall/physics2cl/documents/2CL-F09LectureNotes7.pdf)
-- [FDA laser classes and pointer safety](https://www.fda.gov/radiation-emitting-products/laser-products-and-instruments/frequently-asked-questions-about-lasers)
+## Project overview
+
+A red laser shines across a thin vertical wire. The wire produces a diffraction
+pattern on a matte screen. A USB webcam views the screen from the **front (the
+laser-facing side)** and sends video to a computer. A Python/OpenCV program
+reads the red brightness profile across the middle of the image, locates two
+dark minima, and estimates the wire diameter.
+
+This README describes the code currently supplied as the final program. It
+does **not** use a Raspberry Pi Pico, OV7670 camera, OLED, reference-wire
+calibration, or CSV saving. The computation runs on the computer connected to
+the webcam.
+
+## Physical arrangement
+
+```text
+SIDE VIEW — not to scale
+
+ laser                 vertical taut wire                 matte screen
+ [red laser] -----------------|-------------------------------||
+                               |<------- 500 mm -------------->||
+                                                               ||  pattern
+                                               webcam -------->||
+                                            (in front, on the laser side)
+                                                               |
+                                                        beam stop behind
+                                                        screen, if needed
+
+ Webcam USB -------------------------------> computer running Python
+```
+
+1. Secure the laser and wire holder to the optical bench. Stretch the wire
+   vertically and gently; align the horizontal beam through its midpoint.
+2. Put the matte screen **500 mm from the wire**. Measure from the wire plane
+   to the screen plane. This is the distance used by the current code
+   (`DIST_L_M = 0.500`).
+3. Put the webcam in front of the screen, on the same side as the laser, and
+   aim it at the screen. Keep it below or beside the beam so the beam does not
+   enter the camera lens. Focus on the screen and frame the complete pattern.
+4. Place a ruler flat in the screen plane so two visible marks exactly 50 mm
+   apart can be clicked. This is the image-scale calibration required by the
+   program. Keep the ruler out of the profile area if possible.
+5. Reduce room light and use a beam stop behind the screen. The screen must
+   scatter enough light toward the webcam for the pattern to be visible.
+
+## How the program works
+
+- Opens camera index **1** first, then tries the default camera if that fails.
+- Uses a 650 nm wavelength and a 500 mm wire-to-screen distance, as set near
+  the top of `laser_micrometer.py`.
+- Before producing a diameter, requires two mouse clicks on ruler marks that
+  are exactly 50 mm apart. The clicks set the screen scale in mm per image
+  pixel. Click again after pressing **R** to recalibrate.
+- Averages the webcam's red channel over 20 image rows at the vertical centre.
+- Smooths that profile and searches the middle 30% of the image for dark
+  valleys. It chooses the two strongest accepted valleys and treats their
+  spacing as the distance between the first minima.
+- Calculates the estimated diameter using
+
+  ```text
+  d = 2 × wavelength × wire-to-screen distance / first-minima separation
+  ```
+- Shows the live camera image, profile, detected minima, fringe separation,
+  and estimated diameter.
+
+The 50 mm ruler calibration converts image pixels to screen distance. It does
+not correct perspective or lens distortion, so keep the webcam facing the
+screen as square-on as practical and do not move it after calibration.
+
+## Install and run
+
+Install Python 3 and the required packages:
+
+```text
+python -m pip install opencv-python numpy scipy
+```
+
+From the project folder, run:
+
+```text
+python laser_micrometer.py
+```
+
+The camera index is currently set in the script as `CAM_INDEX = 1`. If the
+program opens the wrong camera, change it to `0` (or the index used by your
+computer) and run again. Close video-call and camera apps if they are using
+the webcam.
+
+### Controls
+
+- **Left-click twice:** calibrate using two ruler marks 50 mm apart.
+- **R:** clear calibration; click the two marks again.
+- **Q:** quit.
+
+The current code does not save results to a file and does not have an **S**
+measurement-save control.
+
+## Important code notes before relying on readings
+
+The program is suitable as a project demonstration, but its current valley
+selection is a simple heuristic. It picks the two strongest valleys in the
+search region; it does not confirm that one is on each side of the central
+maximum, nor that they are the nearest first minima. A reflection, screen
+texture, shadow, or camera artifact could therefore be mistaken for a fringe.
+Only accept a result when the live profile visibly shows a central bright
+maximum and a clear dark minimum on each side, with the blue markers on those
+two minima.
+
+Suggested code improvements before final submission:
+
+1. Find the central bright maximum first, then select the nearest valid dark
+   minimum to its left and right. Reject a pair unless it is approximately
+   symmetric around the centre.
+2. Check that `px_dist` is nonzero before calculating `mm_per_pixel`, and
+   reject clicks too close together. Keep clicks on the same horizontal ruler
+   line to avoid scale error from diagonal separation.
+3. Check that the frame is large enough for the Savitzky–Golay window and
+   clamp the 20-row scan band at the image boundaries.
+4. Add optional controls for camera index, laser wavelength, and measured
+   wire-to-screen distance instead of editing constants in the source.
+5. Add a save function only if the project needs a results log; the pasted
+   final code currently has none.
+
+For a 650 nm laser, 500 mm distance, and a 127 µm wire, the expected spacing
+between the first minima is about **5.1 mm**. This is a planning estimate;
+actual camera focus, screen scattering, alignment, scale calibration, and
+fringe selection affect the result. Verify the behavior with a known wire
+before presenting and compare against a screw-gauge measurement.
+
+## Safety
+
+Use a labelled, low-power laser approved by your teacher. Secure it so the
+beam terminates at the screen/beam stop. Switch it off when adjusting the
+wire, webcam, or screen. Never look into the beam or aim it at a person or
+reflective surface.
+
+## Project files
+
+- `laser_micrometer.py` — current webcam-based live analysis program.
+- `optical-laser-micrometer-model.svg` — project layout illustration; update
+  it if its geometry or signal-flow labels disagree with this README.
+- `output/pdf/optical-laser-micrometer-blueprint.pdf` — printable blueprint;
+  check that its distances and calibration description match this 500 mm,
+  ruler-calibrated version before submitting it.
