@@ -1,118 +1,1523 @@
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%âãÏÓ
 1 0 obj
 <<
-/F1 2 0 R /F2 3 0 R /F3 6 0 R
+/Producer (pypdf)
+/Title (Automatic Optical Wire Micrometer \055 Updated Blueprint)
+/Author (Student project blueprint)
 >>
 endobj
 2 0 obj
 <<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+/Type /Pages
+/Count 3
+/Kids [ 4 0 R 11 0 R 13 0 R ]
 >>
 endobj
 3 0 obj
 <<
-/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+/Type /Catalog
+/Pages 2 0 R
 >>
 endobj
 4 0 obj
 <<
-/Contents 11 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 10 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
 >>
 endobj
 5 0 obj
 <<
-/Contents 12 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 10 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Length 9147
 >>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.090196 .231373 .290196 rg
+n 0 720 595.2756 121.8898 re f*
+.662745 .85098 .819608 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 51.02362 805.0394 Tm (FINAL MODEL) Tj T* ET
+1 1 1 rg
+BT /F2 20 Tf 24 TL ET
+BT 1 0 0 1 51.02362 773.8583 Tm (Automatic optical wire micrometer) Tj T* ET
+.835294 .886275 .901961 rg
+BT /F1 9 Tf 10.8 TL ET
+BT 1 0 0 1 51.02362 748.3465 Tm (USB webcam + laptop analysis | Target build budget: under Rs 1,500) Tj T* ET
+.792157 .847059 .862745 RG
+n 51.02362 36.85039 m 544.252 36.85039 l S
+.372549 .454902 .490196 rg
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 51.02362 24.09449 Tm (Automatic optical wire micrometer | Student project blueprint) Tj T* ET
+BT 1 0 0 1 529.657 24.09449 Tm (1 / 3) Tj T* ET
+q
+1 0 0 1 51.02362 659.9843 cm
+q
+.14902 .227451 .258824 rg
+BT 1 0 0 1 0 16.8 Tm /F1 9.2 Tf 13 TL (A laser passes a vertically held thin wire. The wire creates bright and dark diffraction bands on a matte screen. A USB) Tj T* (webcam films the screen; laptop software finds the first dark bands and calculates the unknown diameter.) Tj T* ET
+Q
+Q
+.933333 .960784 .964706 rg
+.792157 .847059 .862745 RG
+n
+59.02362 303.3071 m
+536.252 303.3071 l
+540.6744 303.3071 544.252 306.8847 544.252 311.3071 c
+544.252 595.7795 l
+544.252 600.2019 540.6744 603.7795 536.252 603.7795 c
+59.02362 603.7795 l
+54.60122 603.7795 51.02362 600.2019 51.02362 595.7795 c
+51.02362 311.3071 l
+51.02362 306.8847 54.60122 303.3071 59.02362 303.3071 c
+h
+B*
+.090196 .231373 .290196 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 73.70079 578.2677 Tm (PHYSICAL BUILD - SIDE VIEW \(NOT TO SCALE\)) Tj T* ET
+.443137 .537255 .580392 RG
+5 w
+n 76.53543 371.3386 m 518.7402 371.3386 l S
+.160784 .247059 .286275 rg
+n
+93.70866 459.2126 m
+186.9213 459.2126 l
+188.5797 459.2126 189.9213 460.5542 189.9213 462.2126 c
+189.9213 493.063 l
+189.9213 494.7214 188.5797 496.063 186.9213 496.063 c
+93.70866 496.063 l
+92.05026 496.063 90.70866 494.7214 90.70866 493.063 c
+90.70866 462.2126 l
+90.70866 460.5542 92.05026 459.2126 93.70866 459.2126 c
+h
+f*
+1 1 1 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 99.87096 472.8189 Tm (LOW-POWER LASER) Tj T* ET
+.431373 .521569 .556863 RG
+4 w
+n 232.4409 379.8425 m 232.4409 507.4016 l S
+n 272.126 379.8425 m 272.126 507.4016 l S
+.14902 .227451 .258824 RG
+1.3 w
+n 252.2835 382.6772 m 252.2835 504.5669 l S
+.090196 .231373 .290196 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 208.9515 521.5748 Tm (VERTICAL TAUT WIRE) Tj T* ET
+.372549 .454902 .490196 rg
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 224.976 354.3307 Tm (gently tensioned) Tj T* ET
+.784314 .309804 .294118 RG
+.784314 .309804 .294118 rg
+2.3 w
+n 189.9213 477.6378 m 413.8583 477.6378 l S
+n 413.8583 477.6378 m 408.7923 480.8528 l 408.7923 474.4228 l h
+f*
+.784314 .309804 .294118 rg
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 292.1053 486.1417 Tm (laser crosses wire midpoint) Tj T* ET
+1 1 1 rg
+.090196 .231373 .290196 RG
+1.2 w
+n 422.3622 382.6772 9.92126 124.7244 re B*
+.086275 .517647 .482353 RG
+1 w
+n 424.3465 399.685 m 424.3465 490.3937 l S
+.086275 .517647 .482353 RG
+1 w
+n 426.8976 399.685 m 426.8976 490.3937 l S
+.086275 .517647 .482353 RG
+1 w
+n 429.7323 399.685 m 429.7323 490.3937 l S
+.090196 .231373 .290196 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 395.0582 521.5748 Tm (MATTE SCREEN) Tj T* ET
+.372549 .454902 .490196 rg
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 404.0532 507.4016 Tm (vertical fringes) Tj T* ET
+.172549 .203922 .219608 rg
+n 435.1181 382.6772 7.086614 124.7244 re f*
+.192157 .317647 .364706 rg
+n
+313.811 413.8583 m
+360.8346 413.8583 l
+361.9402 413.8583 362.8346 414.7527 362.8346 415.8583 c
+362.8346 443.0394 l
+362.8346 444.145 361.9402 445.0394 360.8346 445.0394 c
+313.811 445.0394 l
+312.7054 445.0394 311.811 444.145 311.811 443.0394 c
+311.811 415.8583 l
+311.811 414.7527 312.7054 413.8583 313.811 413.8583 c
+h
+f*
+.070588 .121569 .145098 rg
+n
+361.4173 429.4488 m
+361.4173 433.3626 358.2445 436.5354 354.3307 436.5354 c
+350.4169 436.5354 347.2441 433.3626 347.2441 429.4488 c
+347.2441 425.535 350.4169 422.3622 354.3307 422.3622 c
+358.2445 422.3622 361.4173 425.535 361.4173 429.4488 c
+f*
+.086275 .517647 .482353 RG
+.086275 .517647 .482353 rg
+1.2 w
+n 362.8346 429.4488 m 422.3622 471.9685 l S
+n 422.3622 471.9685 m 416.3712 471.6401 l 420.1085 466.4078 l h
+f*
+.090196 .231373 .290196 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 309.3268 402.5197 Tm (USB WEBCAM) Tj T* ET
+.372549 .454902 .490196 rg
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 288.1058 391.1811 Tm (about 30 cm away, below beam) Tj T* ET
+.372549 .454902 .490196 RG
+.8 w
+n 252.2835 337.3228 m 422.3622 337.3228 l S
+n 252.2835 331.6535 m 252.2835 342.9921 l S
+n 422.3622 331.6535 m 422.3622 342.9921 l S
+.933333 .960784 .964706 rg
+n 297.6378 328.8189 79.37008 17.00787 re f*
+.086275 .517647 .482353 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 313.1988 333.0709 Tm (L = 1500 mm) Tj T* ET
+.086275 .517647 .482353 rg
+n
+53.02362 267.126 m
+52.02362 267.126 l
+53.12922 267.126 54.02362 268.0204 54.02362 269.126 c
+54.02362 278.126 l
+54.02362 279.2316 53.12922 280.126 52.02362 280.126 c
+53.02362 280.126 l
+51.91802 280.126 51.02362 279.2316 51.02362 278.126 c
+51.02362 269.126 l
+51.02362 268.0204 51.91802 267.126 53.02362 267.126 c
+h
+f*
+.090196 .231373 .290196 rg
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 59.02362 272.126 Tm (Signal path) Tj T* ET
+.933333 .960784 .964706 rg
+.792157 .847059 .862745 RG
+n
+56.02362 172.9134 m
+160.8268 172.9134 l
+163.5908 172.9134 165.8268 175.1494 165.8268 177.9134 c
+165.8268 238.7795 l
+165.8268 241.5435 163.5908 243.7795 160.8268 243.7795 c
+56.02362 243.7795 l
+53.25962 243.7795 51.02362 241.5435 51.02362 238.7795 c
+51.02362 177.9134 l
+51.02362 175.1494 53.25962 172.9134 56.02362 172.9134 c
+h
+B*
+.090196 .231373 .290196 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 59.52756 226.7717 Tm (1  Diffraction) Tj T* ET
+q
+1 0 0 1 59.52756 185.2677 cm
+q
+.372549 .454902 .490196 rg
+BT 1 0 0 1 0 24.8 Tm /F1 8.2 Tf 11 TL (wire creates a central) Tj T* (bright band and dark) Tj T* (minima) Tj T* ET
+Q
+Q
+.086275 .517647 .482353 RG
+.086275 .517647 .482353 rg
+1 w
+n 165.8268 208.3465 m 177.1654 208.3465 l S
+n 177.1654 208.3465 m 172.0994 211.5614 l 172.0994 205.1315 l h
+f*
+.917647 .956863 .94902 rg
+.792157 .847059 .862745 RG
+n
+182.1654 172.9134 m
+286.9685 172.9134 l
+289.7325 172.9134 291.9685 175.1494 291.9685 177.9134 c
+291.9685 238.7795 l
+291.9685 241.5435 289.7325 243.7795 286.9685 243.7795 c
+182.1654 243.7795 l
+179.4014 243.7795 177.1654 241.5435 177.1654 238.7795 c
+177.1654 177.9134 l
+177.1654 175.1494 179.4014 172.9134 182.1654 172.9134 c
+h
+B*
+.090196 .231373 .290196 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 185.6693 226.7717 Tm (2  Webcam) Tj T* ET
+q
+1 0 0 1 185.6693 196.2677 cm
+q
+.372549 .454902 .490196 rg
+BT 1 0 0 1 0 13.8 Tm /F1 8.2 Tf 11 TL -0.052781 Tw (captures the pattern on the) Tj T* 0 Tw (matte card) Tj T* ET
+Q
+Q
+.086275 .517647 .482353 RG
+.086275 .517647 .482353 rg
+1 w
+n 291.9685 208.3465 m 303.3071 208.3465 l S
+n 303.3071 208.3465 m 298.2411 211.5614 l 298.2411 205.1315 l h
+f*
+.917647 .941176 .960784 rg
+.792157 .847059 .862745 RG
+n
+308.3071 172.9134 m
+413.1102 172.9134 l
+415.8742 172.9134 418.1102 175.1494 418.1102 177.9134 c
+418.1102 238.7795 l
+418.1102 241.5435 415.8742 243.7795 413.1102 243.7795 c
+308.3071 243.7795 l
+305.5431 243.7795 303.3071 241.5435 303.3071 238.7795 c
+303.3071 177.9134 l
+303.3071 175.1494 305.5431 172.9134 308.3071 172.9134 c
+h
+B*
+.090196 .231373 .290196 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 311.811 226.7717 Tm (3  Laptop) Tj T* ET
+q
+1 0 0 1 311.811 185.2677 cm
+q
+.372549 .454902 .490196 rg
+BT 1 0 0 1 0 24.8 Tm /F1 8.2 Tf 11 TL (OpenCV extracts a) Tj T* (brightness profile and) Tj T* (minima) Tj T* ET
+Q
+Q
+.086275 .517647 .482353 RG
+.086275 .517647 .482353 rg
+1 w
+n 418.1102 208.3465 m 429.4488 208.3465 l S
+n 429.4488 208.3465 m 424.3829 211.5614 l 424.3829 205.1315 l h
+f*
+.960784 .941176 .898039 rg
+.792157 .847059 .862745 RG
+n
+434.4488 172.9134 m
+539.252 172.9134 l
+542.016 172.9134 544.252 175.1494 544.252 177.9134 c
+544.252 238.7795 l
+544.252 241.5435 542.016 243.7795 539.252 243.7795 c
+434.4488 243.7795 l
+431.6848 243.7795 429.4488 241.5435 429.4488 238.7795 c
+429.4488 177.9134 l
+429.4488 175.1494 431.6848 172.9134 434.4488 172.9134 c
+h
+B*
+.090196 .231373 .290196 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 437.9528 226.7717 Tm (4  Result) Tj T* ET
+q
+1 0 0 1 437.9528 196.2677 cm
+q
+.372549 .454902 .490196 rg
+BT 1 0 0 1 0 13.8 Tm /F1 8.2 Tf 11 TL (diameter appears live; S) Tj T* (saves a CSV row) Tj T* ET
+Q
+Q
+.086275 .517647 .482353 rg
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 51.02362 133.2283 Tm (No OV7670 or Pico camera bus: the laptop processes the USB webcam directly.) Tj T* ET
+q
+1 0 0 1 51.02362 94.22047 cm
+q
+.372549 .454902 .490196 rg
+BT 1 0 0 1 0 13.8 Tm /F1 8.2 Tf 11 TL (Use a matte card and place the camera off the beam axis. Keep a black beam stop behind the screen. Do not remove the webcam lens) Tj T* (or aim the laser into the camera.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.090196 0.231373 0.290196 rg
+n
+45.35433 734.1732 504.5669 28.34646 re
+f*
+0.835294 0.886275 0.901961 rg
+BT
+/F1-0 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 51.02362 748.3465 Tm
+(Borrowed college optical bench \174 Purchased laser \174 DIY riders) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 6 0 obj
 <<
-/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 7 0 obj
 <<
-/Contents 13 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 10 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 8 0 obj
 <<
-/PageMode /UseNone /Pages 10 0 R /Type /Catalog
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 9 0 obj
 <<
-/Author (Student project blueprint) /CreationDate (D:20261017222058+05'00') /Creator (anonymous) /Keywords () /ModDate (D:20261017222058+05'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (unspecified) /Title (Automatic Optical Wire Micrometer - Final Blueprint) /Trapped /False
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 10 0 obj
 <<
-/Count 3 /Kids [ 4 0 R 5 0 R 7 0 R ] /Type /Pages
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 11 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 3441
+/Contents 12 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
 >>
-stream
-Gau0EflA#j(4G@Ii)0$_#hB3Ae3(f11ZKD,njp,n;jE[beZtQ!Q]RFH=3\e3!?)nK/WQU2W[.0II5fr&mff-nL*%Ic:ZmDDR#iD=k(F*t\KY9U74'Bm4;h#Y(j?F_6?6ccrXPRPT102NC'5d8Be#'Zn1^ck3_S$E\U$0.9d>VFKNcV#;N'_*ohPd'Jlo5"d3bjpb+ht*;^Q%-,tq5a*NYZmURto.4[($-:1&uV^*AhKalJk>$qB9T8;0JD/(=Z!NKGp;arpBPB"OSBgY%fB=8:VFjE:_4k-O;u3UaE4]$a$Le,n4::&"qE684:?:0`SsU\5l(b#52W*RqhgImItaMeP7#Ij9BRg+HI&?*sQsc"ocH9.''&;n"%h2m`Jr^G#-97rkrGm+1666hpDEZ._D%"P3kO.DrO1hdHo<rdinJqIS]r6om(N=t(qC"ngr(7&:K!iG"#'9]0jGoB<$E3pbZ):'u^);3:?K0nuUhgRHB(YpHIDo%.adQi!7i[@StYQ%-1cJ]r\G4*im^J]MU)n"Tus)XXK08g<Tk2<BIG_M=!.YI54G1O.%u7sO&QF?]%F*B57Vo1-jRZOQ8.[@9n"+YENFXb2E-(NS>?caMH37IZV+a`TQ;4^E:!(99+>ZVT1WD"f6dCtHFabLtFr\t*_Ob6>EV\fpiE9+\XN7lGUl>>T?6O>=quUR4)DZ[TW>Y-dPnPY.G,eb6HEKUd=5I`9iR^"El&#:3\@/=t_j_(*4^B(=VbH+SSqD:fq6"ngdJThbH6+@*i'<W4X,/u6QU3B0@p@h(7c,r;(87iKJcE\KfX81R.KUK#'MU,$Ng,Su"&@E!>Q+CC4hEB4@DTS>0NOMiD;DBLqj9'S2d/QQK-9;2mUU;BMpA`3s;(-ko4>r&djYi8BA?5u.be9#dqHL^?qMB",h%i*HXnpP\UmMX"Q/2``N`gFQ1GQ7Teq<O@qXY8PG5']SgPOmD0`oP&'nON/ndG*+VR@KF]Hp@Vl]=QQAjUE>3qf76kW%A@4nGB<//aA=0n<F4,Uk.^W2SS$e98s#51):3,O'*`;b(ub(qBe"=hIbM!6m3h-$]#[?gJDFK/6EG,;JhpQ(q2-#C)GK)M&HuDRd$bYd)6h?6tJnd,Iepd\8/sU@R1-oQ(\fT7numXR4+/,GtjN.+YjAH:pRC1Z04iCSbtX0PYW0=ir'X<J)b[3>/QFrap9h?4-\9ZduVi4SUMQNOd"hsn_$YM`$EjjI"S!=]!62U8YAB_#Uti`b[JC4=p^06aI$Ro.`R5h^foso<nBth['T=pU(*[7WBmRSi6\N]ZiY>._M_$RAr>lNM7r=S2VfH+_(9_t6Qu^VNNO=SojN5+$#H%M^RpUKYKt42]`(65'kha8+?V%f&euR'qh18l<jV0/)g%)-Eb?4SRmVq(H8s)1]:@m9qDd=*(!I4DKS9NJcpeq3&1SaaVMks'GDK`\JqHeub[ML=_QPPY_1X6=()$6?HQE\*LqoGPMAg"0+6#%tAW.G!/]VScEja\n-SdFE97r=)+p8&B;Uf2RE[h45f,<PXN1L(sTg6ZW:ih8lLcr15lG*]I-)k>PPFu,iI@b'Wq*:cD=WN[s;+]sn+X\a2&c/hs*&S@5;bN"pStp9PN'pl\g591Q]K)QW`b7&=j71kg7hr5KdQ8e("c=NN7&_,3;&[^#'unBlh545mUGCeTR'/+;Y_(Lu9p(FJm(DlYCj]Tg[bg1%O0an+@?u0i>)]7i$0R!oo8uEq\(LG,otWP0^-uWB=dN/TRhhkjoWVpg.[ZC:RAmAE"`>ICZ>^Nh<lK`F9T,_RJg;tq>dULP`&oh,MPB]T=l_t!=kQkQE[;+=mdA+EFtq.DcJftgA$:GaJ$9oE$cg&2)7!9l/=T_.Pb,J#FCOTf#=+%&U_M::^hh9b*&Nm[b4t.E,q1'1+.b!Mp<SjF.+aK\/g4P,1+KIWc9sr'hG&c]gro![^-]&%5qC'>6WQlWR*V;+"0o]bi4^-ei$]\O"t]?\?8*('I'&hA`&"7,s-9n+*0m8'TXB;7cK'WLa75(Sa)@QJBF)h,BI"@)MGrq!d&Uk6Q8`$8i,;3@g\/hbjJ(t,\+ne)^I#3_$G/6\8-=(S::N(q-_[g]U%K:"bqDs$l;2-e\#*>5Y^5[=LGl)QZ#r]JLWL'*R)E^T&rq!f#>?UfpSZU&>7"&GLK&mHT$MDj,_%1H1IgLg+h_4n%[&U'1GjgrLB>D,([CrK/pofX&EoJ3=Sr])7YNf_bfg7-.4GTRORjn08Qdn4RijbmO2/+X1.'s`kI>*RA,JSIhc!l&,*S.;%4+fUkiD)ZN,g(ioE<9k.h6mG))<:-dqnGrn9jqDJ]>99\(C9_Id8RO'31\U_^DG]OjEbN?N`-=F'9ffG-&Q*UXL^[NsRn():m`eQS9S"3o:`I@5^Ep-X"#Wn\h&:aN1a@R^%rt6G"/:Y/R.-Jg;;8D9fT`2&8?td^.P\nbVO_Jd:^O*=d5k>$#++1a^MuS<-h6QKmn=[e(]OHFRK&Y1apJc/l);'32b^Zgk2XLV(!c]<desEV*DCID-&H[qYh:.po:;0B][\Cu4U;@XVJ\*6q&7?WatcSVM%aXpR(OkX0_=[Yd(]Vnb]rr@HW'(rKZQY&j>Zd0_fPY;*rj&3e)YNd3MGX`u,h`J&6g'p""WPCA2la4%&UFVU'bPd-*9"\Y8TV.V\s)_)n?>:Ub7PXN_1'ilNH=dkJiUPr28Wj#G?P4VX8%c[-a4Rt%:)CK`S,RF2_Y&<^(:jrU@^4AV"E5%N&cP_a3BIijs99,n:C4!:I2ngelah1sT)eXOl<jAlJ\:C0ZlcUY$:e?m<ML=$d8"`3ho8rQR1]46Y<3U]UKPtii:*&RR#"c#E/$9`McR#);;)9VjE/^eN`GJcno;t>7K/-I^W*h'pZh2IoCdZ17Chq!4M)[agKp>I]kliLEb#lWU$B#s:l.PC?GWc([d[>*15a%4mn;?7$!i8DY\cnY-]#Di'V#+Zf4!;,]?M@TERuMoMFZ&JHhh:uYrMO0tTgV)cmEt).O#Kg7\=,Sb4.o@fi$*TNo9]E:dRQkd.'Dd/V$l`r.e[PG;Z%h8)//#FRkjSG+B'XR'lu-pLTDo6b[F@o7@S+'72t?L;H?e"$"5/l7LEuf<mde];B\TZ9<gI4dhC(tiCrM6`Tn"P'Hq,Fk,.%mad`4P'/uMXoHKF)X&[cS2l*'omX?ACR38!mF-u6!SpqmKjm?,)V8V>.?G(>!3cW4^hYY&nP1'r=0oR[8jP=X`7"^tQl]tf2CjldE0tosXSYoc'7eU6_^A\c:k]GR/Tb"nXG">5qc^l\Pml+O$.I;D%(j8u/47.WNd>R,:<VYeH.7j?VCdZ=Z\o*3L0<k)X!T//%0"UB%ij*lU9Za=]=Y.$An'@>m#H?,4^0BZ6dj)f5S]tZCr,qmQZ!CBgm(YA(U]1A&b(DS~>endstream
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
 endobj
 12 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 3209
+/Length 19065
 >>
 stream
-Gatm>=a/W1'n4c<\<#*!2M7"D6Qb<UUn-)cj,'?#RA(g^#oAl&XCP(UHp<-,#YVVmph4b=1,"3jiPSrOE+8T]qjgeV=*O<),:>,-DG=@>MXIY3_qcME.H>,1JWO-V'#2>*HbZL62&;.f1^lbl7[VDP,Y8Ya26D@7"ApFR'iL-H%)a:)4I2A&<g]Pua@_(u'Eos.[0h2pKT%U<K`RAd[&N8eX3\Ods%56%n,N%s])+g<5FYg&)5!<G'EV@0:,%Z;$(V]CRGMIkhd+TL\%:0SAbCqdY1(q,r9ajt&fD$i!V9\49X7E\`H"SQhcPu1P,ja2W[P5pJ'YiDb,?o[Mq%tn[aeNQ/PFIE2QQ:hV<a_=HJQB)Gub^(2X?:tT)+GDY$(MrXOVm*@[mcH`_]OO/55RqGlQ7MYY\'u)4B$:.9.'3'o:3]Q#sVDA1U'$fa?V1i7BRTBP8B=G1fXC.25UR^r=t%Ib-Ln<6qPsi]AZ)?biJ;aP3T?]l*(aFPH7b`nYFcI*jsu/pDWr(3T*!k6hn&%8;0q8'j>\^-C8[<$@;I"i%!(aA?'u/j_Ru)C6q*'.'V]K]8(oRW2T._P;h-N<7bm,k`Zr(m?Ub>07khR0MnIRaTD#P_$I9`_=&++Uu*"PpaeJacEt'6QPa:9Ug,UIG/4oj6j!4nlNQX/Bf/b5!4f$O`S,jA0@I/9^:8b"'`5Z`sq8bk^OC=5Z=on,`=Z,(gargWd)ZX_)Xhik?eQ[7B(CI7iFigKNY8Xr]!IVD[mhC3KIY[rjFP::DV6E+smAC<]bd@GJR@JkZ85@d)=_Ip"/lp"OHj-n<qsM'5.qPhou$OCJD1ZS*krk1^W.qI(PK@>u@c'DL-^RKA!fno>jc7Nh`+p&$\Wl!64OJ-4'bMZ\&"(i6Sl6o_ICZcsABsXEoR:cR8Qf8!:.#OKhm^eSM!&&;iXCN7;2m:",MH!crLR+\-'FgoRAqPOCPIl60s(Xk#Ag<OQ^e4VWVFJ?G?LD>*FE4_*HK1%-Z;hbD6Bf!K;*Y!@.;Si$m+aJ3gen[dC\DOWeP6`X9fAt<gHZ&Ik0O(Dk/[#WP7=0*\1B3NF'FrAJ>WQS270'IGDDfg>oD35bZi/8T#kh;o5#-S1%CLadimEEM;G4d]DXlZFihi,j^Rapiu)TM$0%(Ut5(Im.oMs:ZE>[9=K"sCXmTSY_iH?*gp&\_^YSknX$@.h,oCKJ[`?Pd<WSOZKhopYTDU,V2)H+PW6r9O-e.7<uKHZH+&j@iaO*.,0:MO$<%<ZVJ2-e@BaP0GVkI*IhE9AgBHk\K#@CIFJrDKVN9Tcc3F2o+4tIC?aXRR_X<_^8FOe2#,?9Hc(Dp<E;BkFYD=EW4.Q5F8_fhho^f0;UOig0NO^c1c[>ggiR_C%e*?GH8>]fq6JEm&_6!YX80TD2WQ>;71?=XF*Hk3LaQ(?QgO<YGi1a9]R1V%qXU8MXAurJT826`gRh%fQPm/)[,Je*jYKd5l]>[CDUGp`c>@LG#hD23Z#^0"_sR*<p:_$s3%BZ'JA1QK"RPqC\)4Cd+XrJ]jQoBbT#aTH%lol+2<\GAm?[D?K';F@aUrPGar*Zb(#&Aklk6`mff;[([)dM(O-j)E2Eh9)$Sj6X?04sYl+4noJ!uY_gYqDj/S37'hX2;j#WX\j#WXp<.VB+V_[fl@Mn.u\16Kuf1Zj/@Oddm>SYAC]@12_GWi4)Gs1RXP94f-LH9ZCY1'fNBp1uG]<h@T?g$fr<>Z3^mA\0O`^H/ldE<.oWA$beJRZ;u4XtVNY&VYf-.)aW&eQ$a!CV8k#ob*$;A9?k[dC8WX>0qY5p\6!i&1uN1"_UTj)m!)b\*eHdd5+N1lT:JEf>6*@+kpV#l.r\BVKd<N-pY&b83[^pSgNuL]uG\7W(7KSj.8_9+-++<%e9^R#6k6&`q!II;!n#oNWT95'_B-cf<ttQAt;[&)R5CP0=eEGgZJ"nSKgYckb7FDp+SD;Z]`cE+gc5^<P"5oX%+sMG=`/`>3uF-Z_qF6Q7Z^/9Q\26U0f*0[d]GPnGOi*mj_]A.iLTa?q7H!bRUL"3O%$:cXYM]M3bn`C]Yt.F%Z*3&jm[,RkB>m7Gn$lsXoYH"N"/NX^=[,\>-#K#>^lq&tT:&ofd:o'ag/aeSG+#uJbi*Xt1=-u\u`p\Dgd[r?`AXb@Z;T7Q4>Y'^)WeG\5D:%\<pCle_0F',Sg*NG40krL<jNiHQrD2S1g7!p:+@tqCMI723p)c9$YGmIdY@r^e-A0fBTFJKdi'-E8j#kJ'7@?A:I3^1Vi8JL\tejT!N3RMH8-U(%d]bQ\Wb9h8>S<.B=Ul;&k@aT`$>M]0(;ChAD)&farTW+*j^)oWfEq2$5]Ks03O4nR4-u5f^k4[-<G$ARd%d8,-FZV_>6p56Y=kSc.1+$<3FL19FCkm2j7aTG&4A3@:C:b'`%;c6^&]H(C$WB:e1o*^2,T_o0LFU8knD\/:j>>8ZN9kuNROlZ]2$6p9i>0[pQj>lp-ebZa`95d?[j"nPiVq4i9:[081(M/X)6P*#R]\?(df>BFoAulHbL4eJF2E*dm[rU0)A9Q^HYV-grjnc*1hkhO>#T1]:jl\Y;K#`#6aI`IK]V1FGZXW.3OFBMQaAUbF8sj/Z?H+'n=gqR9=XW1.oPFK'R_cV(dNXL1V+obLZ40O5WZ1?#brp]ahm*uc6J*TKKXA[3Yqs[i$$e$At:;5a-OCNaWa$/&B1o.>'P39$WJ]db(bmr<AoY/VBl(7(*9An/.t.8G+QQYPHFJP>7&)_]Y2r6rPgo.p$0qE5dlHn/jQTOTZs%4M7!!Qrh1cAk&dd0\TiXX?+\+Rl&O,Z9(O-u\R@5d2h"cNX:_?_dgc5pJ".(>3g&+8=siquh2tAab_%T9=EV"8`][m!(rjE;aDlmtWWs/<L`7lR/YeG=&1iLFK-!$o[$5a\,i0.(=\D8kXZd.e4IU&EBBG40C#HDK:/S3kSunEjcNYJ:b-]Z"YA't3i&O+S+F/bc3M*2YQc:pO?$=2Z^r](/?_>9CS'+22$`2,`Q9V+%as[T7e`4ou"`Y.'Y-J5LE2%hVIjM09<>QF\l_<eCbGqM!$H'=7"<M-.^$5>nTJ4b!f]Wp4.7^[\f(K.C[Q]MfB^D0J-<DUsLP#_r*l-t\iiD5#;:`h3`g#%K%2m.=j8a7,fHK1>6hJ,IIA+2N16]os&k7r:YLQoWmS"BYgekHR5>Q3!'*~>endstream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.090196 .231373 .290196 rg
+n 0 720 595.2756 121.8898 re f*
+.662745 .85098 .819608 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 51.02362 805.0394 Tm (BUILD PLAN) Tj T* ET
+1 1 1 rg
+BT /F2 20 Tf 24 TL ET
+BT 1 0 0 1 51.02362 773.8583 Tm (Parts, budget and assembly) Tj T* ET
+.835294 .886275 .901961 rg
+BT /F1 9 Tf 10.8 TL ET
+BT 1 0 0 1 51.02362 748.3465 Tm (Make a rigid, repeatable arrangement before calibrating the software.) Tj T* ET
+.792157 .847059 .862745 RG
+n 51.02362 36.85039 m 544.252 36.85039 l S
+.372549 .454902 .490196 rg
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 51.02362 24.09449 Tm (Automatic optical wire micrometer | Student project blueprint) Tj T* ET
+BT 1 0 0 1 529.657 24.09449 Tm (2 / 3) Tj T* ET
+.086275 .517647 .482353 rg
+n
+53.02362 680.9843 m
+52.02362 680.9843 l
+53.12922 680.9843 54.02362 681.8787 54.02362 682.9843 c
+54.02362 691.9843 l
+54.02362 693.0899 53.12922 693.9843 52.02362 693.9843 c
+53.02362 693.9843 l
+51.91802 693.9843 51.02362 693.0899 51.02362 691.9843 c
+51.02362 682.9843 l
+51.02362 681.8787 51.91802 680.9843 53.02362 680.9843 c
+h
+f*
+.090196 .231373 .290196 rg
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 59.02362 685.9843 Tm (Parts budget) Tj T* ET
+q
+1 0 0 1 51.02362 472.3071 cm
+q
+.090196 .231373 .290196 rg
+n 0 191 493.2283 -21 re f*
+.917647 .956863 .94902 rg
+n 0 32 493.2283 -32 re f*
+1 1 1 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 175 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.6 Tm /F2 8.4 Tf 11 TL (Part) Tj T* ET
+Q
+Q
+q
+1 0 0 1 110.8819 175 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.6 Tm /F2 8.4 Tf 11 TL (Target cost) Tj T* ET
+Q
+Q
+q
+1 0 0 1 198.7559 175 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.6 Tm /F2 8.4 Tf 11 TL (Build note) Tj T* ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 6 148.5 cm
+q
+.14902 .227451 .258824 rg
+BT 1 0 0 1 0 2.6 Tm /F1 8.4 Tf 11 TL (USB UVC webcam) Tj T* ET
+Q
+Q
+q
+1 0 0 1 110.8819 148.5 cm
+q
+.14902 .227451 .258824 rg
+BT 1 0 0 1 0 2.6 Tm /F1 8.4 Tf 11 TL (Rs 300-500) Tj T* ET
+Q
+Q
+q
+1 0 0 1 198.7559 143 cm
+q
+.14902 .227451 .258824 rg
+BT 1 0 0 1 0 13.6 Tm /F1 8.4 Tf 11 TL (Choose a camera that can focus on the screen at about 30 cm. Borrow/test) Tj T* (before buying if possible.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 116.5 cm
+q
+.14902 .227451 .258824 rg
+BT 1 0 0 1 0 2.6 Tm /F1 8.4 Tf 11 TL (Low-power red laser) Tj T* ET
+Q
+Q
+q
+1 0 0 1 110.8819 116.5 cm
+q
+.14902 .227451 .258824 rg
+BT 1 0 0 1 0 2.6 Tm /F1 8.4 Tf 11 TL (Rs 0 borrowed) Tj T* ET
+Q
+Q
+q
+1 0 0 1 198.7559 111 cm
+q
+.14902 .227451 .258824 rg
+BT 1 0 0 1 0 13.6 Tm /F1 8.4 Tf 11 TL (Use a labelled, teacher-approved classroom laser. Do not use an unlabelled) Tj T* (high-power module.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 79 cm
+q
+.14902 .227451 .258824 rg
+BT 1 0 0 1 0 13.6 Tm /F1 8.4 Tf 11 TL (Base, clamps, hood,) Tj T* (screen) Tj T* ET
+Q
+Q
+q
+1 0 0 1 110.8819 84.5 cm
+q
+.14902 .227451 .258824 rg
+BT 1 0 0 1 0 2.6 Tm /F1 8.4 Tf 11 TL (Rs 100-250) Tj T* ET
+Q
+Q
+q
+1 0 0 1 198.7559 84.5 cm
+q
+.14902 .227451 .258824 rg
+BT 1 0 0 1 0 2.6 Tm /F1 8.4 Tf 11 TL (Wood/cardboard, lab clamps, matte white card, black card, and tape.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 58 cm
+q
+.14902 .227451 .258824 rg
+BT 1 0 0 1 0 2.6 Tm /F1 8.4 Tf 11 TL (Wire/hair sample) Tj T* ET
+Q
+Q
+q
+1 0 0 1 110.8819 58 cm
+q
+.14902 .227451 .258824 rg
+BT 1 0 0 1 0 2.6 Tm /F1 8.4 Tf 11 TL (Rs 0-50) Tj T* ET
+Q
+Q
+q
+1 0 0 1 198.7559 58 cm
+q
+.14902 .227451 .258824 rg
+BT 1 0 0 1 0 2.6 Tm /F1 8.4 Tf 11 TL (Borrow known reference wire and screw gauge from the lab.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 37 cm
+q
+.14902 .227451 .258824 rg
+BT 1 0 0 1 0 2.6 Tm /F1 8.4 Tf 11 TL (Laptop) Tj T* ET
+Q
+Q
+q
+1 0 0 1 110.8819 37 cm
+q
+.14902 .227451 .258824 rg
+BT 1 0 0 1 0 2.6 Tm /F1 8.4 Tf 11 TL (Rs 0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 198.7559 37 cm
+q
+.14902 .227451 .258824 rg
+BT 1 0 0 1 0 2.6 Tm /F1 8.4 Tf 11 TL (Existing laptop runs Python and shows the result.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 10.5 cm
+q
+.14902 .227451 .258824 rg
+BT 1 0 0 1 0 2.6 Tm /F2 8.4 Tf 11 TL (Expected total) Tj T* ET
+Q
+Q
+q
+1 0 0 1 110.8819 10.5 cm
+q
+.14902 .227451 .258824 rg
+BT 1 0 0 1 0 2.6 Tm /F2 8.4 Tf 11 TL (Rs 400-800) Tj T* ET
+Q
+Q
+q
+1 0 0 1 198.7559 5 cm
+q
+.14902 .227451 .258824 rg
+BT 1 0 0 1 0 13.6 Tm /F2 8.4 Tf 11 TL (Shipping and optional purchases vary. Keep the project ceiling at Rs) Tj T* (1,500.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.792157 .847059 .862745 RG
+.5 w
+n 0 191 m 493.2283 191 l S
+n 0 0 m 493.2283 0 l S
+n 0 0 m 0 191 l S
+n 493.2283 0 m 493.2283 191 l S
+n 0 170 m 493.2283 170 l S
+n 0 138 m 493.2283 138 l S
+n 0 106 m 493.2283 106 l S
+n 0 74 m 493.2283 74 l S
+n 0 53 m 493.2283 53 l S
+n 0 32 m 493.2283 32 l S
+n 104.8819 0 m 104.8819 191 l S
+n 192.7559 0 m 192.7559 191 l S
+Q
+Q
+Q
+.086275 .517647 .482353 rg
+n
+53.02362 450.2992 m
+52.02362 450.2992 l
+53.12922 450.2992 54.02362 451.1936 54.02362 452.2992 c
+54.02362 461.2992 l
+54.02362 462.4048 53.12922 463.2992 52.02362 463.2992 c
+53.02362 463.2992 l
+51.91802 463.2992 51.02362 462.4048 51.02362 461.2992 c
+51.02362 452.2992 l
+51.02362 451.1936 51.91802 450.2992 53.02362 450.2992 c
+h
+f*
+.090196 .231373 .290196 rg
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 59.02362 455.2992 Tm (Assembly - follow in this order) Tj T* ET
+.086275 .517647 .482353 rg
+n
+71.43307 426.9528 m
+71.43307 431.9625 67.37191 436.0236 62.3622 436.0236 c
+57.3525 436.0236 53.29134 431.9625 53.29134 426.9528 c
+53.29134 421.9431 57.3525 417.8819 62.3622 417.8819 c
+67.37191 417.8819 71.43307 421.9431 71.43307 426.9528 c
+f*
+1 1 1 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 60.1382 419.2992 Tm (1) Tj T* ET
+.090196 .231373 .290196 rg
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 82.20472 432.622 Tm (Build the base) Tj T* ET
+q
+1 0 0 1 82.20472 415.9528 cm
+q
+.372549 .454902 .490196 rg
+BT 1 0 0 1 0 2.8 Tm /F1 8.2 Tf 11 TL (Fix the laser and wire holder to a straight wooden strip or optical bench. Keep the beam level.) Tj T* ET
+Q
+Q
+.086275 .517647 .482353 rg
+n
+71.43307 398.9449 m
+71.43307 403.9546 67.37191 408.0157 62.3622 408.0157 c
+57.3525 408.0157 53.29134 403.9546 53.29134 398.9449 c
+53.29134 393.9352 57.3525 389.874 62.3622 389.874 c
+67.37191 389.874 71.43307 393.9352 71.43307 398.9449 c
+f*
+1 1 1 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 60.1382 391.2913 Tm (2) Tj T* ET
+.090196 .231373 .290196 rg
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 82.20472 404.6142 Tm (Hold the sample) Tj T* ET
+q
+1 0 0 1 82.20472 387.9449 cm
+q
+.372549 .454902 .490196 rg
+BT 1 0 0 1 0 2.8 Tm /F1 8.2 Tf 11 TL (Stretch the wire vertically and gently between two clamps. The laser must cross its midpoint.) Tj T* ET
+Q
+Q
+.086275 .517647 .482353 rg
+n
+71.43307 370.937 m
+71.43307 375.9467 67.37191 380.0079 62.3622 380.0079 c
+57.3525 380.0079 53.29134 375.9467 53.29134 370.937 c
+53.29134 365.9273 57.3525 361.8661 62.3622 361.8661 c
+67.37191 361.8661 71.43307 365.9273 71.43307 370.937 c
+f*
+1 1 1 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 60.1382 363.2835 Tm (3) Tj T* ET
+.090196 .231373 .290196 rg
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 82.20472 376.6063 Tm (Set the screen distance) Tj T* ET
+q
+1 0 0 1 82.20472 348.937 cm
+q
+.372549 .454902 .490196 rg
+BT 1 0 0 1 0 13.8 Tm /F1 8.2 Tf 11 TL (Place matte white card 1500 mm from the wire plane. Measure this distance along the beam. Put a black beam stop behind the) Tj T* (card.) Tj T* ET
+Q
+Q
+.086275 .517647 .482353 rg
+n
+71.43307 331.9291 m
+71.43307 336.9388 67.37191 341 62.3622 341 c
+57.3525 341 53.29134 336.9388 53.29134 331.9291 c
+53.29134 326.9194 57.3525 322.8583 62.3622 322.8583 c
+67.37191 322.8583 71.43307 326.9194 71.43307 331.9291 c
+f*
+1 1 1 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 60.1382 324.2756 Tm (4) Tj T* ET
+.090196 .231373 .290196 rg
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 82.20472 337.5984 Tm (Position the webcam) Tj T* ET
+q
+1 0 0 1 82.20472 309.9291 cm
+q
+.372549 .454902 .490196 rg
+BT 1 0 0 1 0 13.8 Tm /F1 8.2 Tf 11 TL (Place the webcam about 30 cm in front of the screen, slightly below the beam. Aim it at the card and focus until the pattern is) Tj T* (sharp.) Tj T* ET
+Q
+Q
+.086275 .517647 .482353 rg
+n
+71.43307 292.9213 m
+71.43307 297.931 67.37191 301.9921 62.3622 301.9921 c
+57.3525 301.9921 53.29134 297.931 53.29134 292.9213 c
+53.29134 287.9116 57.3525 283.8504 62.3622 283.8504 c
+67.37191 283.8504 71.43307 287.9116 71.43307 292.9213 c
+f*
+1 1 1 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 60.1382 285.2677 Tm (5) Tj T* ET
+.090196 .231373 .290196 rg
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 82.20472 298.5906 Tm (Block stray light) Tj T* ET
+q
+1 0 0 1 82.20472 281.9213 cm
+q
+.372549 .454902 .490196 rg
+BT 1 0 0 1 0 2.8 Tm /F1 8.2 Tf 11 TL (Shade the screen and camera with black card. Keep the camera away from the direct beam and avoid reflective surfaces.) Tj T* ET
+Q
+Q
+.933333 .960784 .964706 rg
+.792157 .847059 .862745 RG
+n
+57.02362 87.87402 m
+538.252 87.87402 l
+541.5688 87.87402 544.252 90.55722 544.252 93.87402 c
+544.252 149.9055 l
+544.252 153.2223 541.5688 155.9055 538.252 155.9055 c
+57.02362 155.9055 l
+53.70682 155.9055 51.02362 153.2223 51.02362 149.9055 c
+51.02362 93.87402 l
+51.02362 90.55722 53.70682 87.87402 57.02362 87.87402 c
+h
+B*
+.090196 .231373 .290196 rg
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 68.0315 133.2283 Tm (Pattern-size check) Tj T* ET
+q
+1 0 0 1 68.0315 102.7244 cm
+q
+.372549 .454902 .490196 rg
+BT 1 0 0 1 0 13.8 Tm /F1 8.2 Tf 11 TL (For a 650 nm laser, 127 um wire, and L = 1.5 m, the first-minimum pair is approximately 15.4 mm apart. If the pattern is too) Tj T* (small in the webcam image, move the webcam closer only if it can still focus, or use the higher camera resolution.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 39.68504 595.2756 680.315 re
+f*
+0.090196 0.231373 0.290196 rg
+n
+0 734.1732 595.2756 56.69291 re
+f*
+1 1 1 rg
+BT
+/F2-0 20 Tf
+24 TL
+ET
+BT
+1 0 0 1 51.02362 773.8583 Tm
+(Budget\054 DIY riders and assembly) Tj
+T*
+ET
+0.835294 0.886275 0.901961 rg
+BT
+/F1-0 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 51.02362 748.3465 Tm
+(Borrow the optical bench\073 purchase the laser\073 make riders to fit the bench\056) Tj
+T*
+ET
+0.086275 0.517647 0.482353 rg
+n
+53.02362 694.3228 m
+52.02362 694.3228 l
+53.12922 694.3228 54.02362 695.2172 54.02362 696.3228 c
+54.02362 704.3228 l
+54.02362 705.4284 53.12922 706.3228 52.02362 706.3228 c
+53.02362 706.3228 l
+51.91802 706.3228 51.02362 705.4284 51.02362 704.3228 c
+51.02362 696.3228 l
+51.02362 695.2172 51.91802 694.3228 53.02362 694.3228 c
+h
+f*
+0.090196 0.231373 0.290196 rg
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 59.02362 697.3228 Tm
+(Cost plan \055 fill in prices from your actual purchases) Tj
+T*
+ET
+q
+1 0 0 1 51.02362 568.1457 cm
+q
+0.090196 0.231373 0.290196 rg
+n
+0 106.5 493.2283 -19 re
+f*
+0 0 0 rg
+BT
+/F1-0 10 Tf
+12 TL
+ET
+q
+1 0 0 1 5 91.5 cm
+q
+1 1 1 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2-0 8.5 Tf
+11 TL
+(Item) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 101.378 91.5 cm
+q
+1 1 1 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2-0 8.5 Tf
+11 TL
+(Plan) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 421.6929 91.5 cm
+q
+1 1 1 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2-0 8.5 Tf
+11 TL
+(Cost) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 5 74 cm
+q
+0.14902 0.227451 0.258824 rg
+BT
+1 0 0 1 0 1.7 Tm
+/F1-0 7.8 Tf
+9.5 TL
+(Optical bench) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 101.378 74 cm
+q
+0.14902 0.227451 0.258824 rg
+BT
+1 0 0 1 0 1.7 Tm
+/F1-0 7.8 Tf
+9.5 TL
+(Borrow from college) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 421.6929 74 cm
+q
+0.14902 0.227451 0.258824 rg
+BT
+1 0 0 1 0 1.7 Tm
+/F1-0 7.8 Tf
+9.5 TL
+(Rs 0) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 5 56.5 cm
+q
+0.14902 0.227451 0.258824 rg
+BT
+1 0 0 1 0 1.7 Tm
+/F1-0 7.8 Tf
+9.5 TL
+(Red laser) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 101.378 56.5 cm
+q
+0.14902 0.227451 0.258824 rg
+BT
+1 0 0 1 0 1.7 Tm
+/F1-0 7.8 Tf
+9.5 TL
+(Purchase a labelled low\055power unit\073 note its wavelength) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 421.6929 56.5 cm
+q
+0.14902 0.227451 0.258824 rg
+BT
+1 0 0 1 0 1.7 Tm
+/F1-0 7.8 Tf
+9.5 TL
+(Actual price) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 5 39 cm
+q
+0.14902 0.227451 0.258824 rg
+BT
+1 0 0 1 0 1.7 Tm
+/F1-0 7.8 Tf
+9.5 TL
+(Riders and holders) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 101.378 39 cm
+q
+0.14902 0.227451 0.258824 rg
+BT
+1 0 0 1 0 1.7 Tm
+/F1-0 7.8 Tf
+9.5 TL
+(Make\057adapt to fit the borrowed bench\073 keep mounts rigid) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 421.6929 39 cm
+q
+0.14902 0.227451 0.258824 rg
+BT
+1 0 0 1 0 1.7 Tm
+/F1-0 7.8 Tf
+9.5 TL
+(DIY cost) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 5 21.5 cm
+q
+0.14902 0.227451 0.258824 rg
+BT
+1 0 0 1 0 1.7 Tm
+/F1-0 7.8 Tf
+9.5 TL
+(Webcam and laptop) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 101.378 21.5 cm
+q
+0.14902 0.227451 0.258824 rg
+BT
+1 0 0 1 0 1.7 Tm
+/F1-0 7.8 Tf
+9.5 TL
+(Use the selected webcam and available laptop) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 421.6929 21.5 cm
+q
+0.14902 0.227451 0.258824 rg
+BT
+1 0 0 1 0 1.7 Tm
+/F1-0 7.8 Tf
+9.5 TL
+(Actual cost) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 5 4 cm
+q
+0.14902 0.227451 0.258824 rg
+BT
+1 0 0 1 0 1.7 Tm
+/F1-0 7.8 Tf
+9.5 TL
+(Screen\054 stop\054 sample) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 101.378 4 cm
+q
+0.14902 0.227451 0.258824 rg
+BT
+1 0 0 1 0 1.7 Tm
+/F1-0 7.8 Tf
+9.5 TL
+(Make a matte screen holder and beam stop\073 source the sample) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 421.6929 4 cm
+q
+0.14902 0.227451 0.258824 rg
+BT
+1 0 0 1 0 1.7 Tm
+/F1-0 7.8 Tf
+9.5 TL
+(DIY cost) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0.792157 0.847059 0.862745 RG
+0.5 w
+n
+0 106.5 m
+493.2283 106.5 l
+S
+n
+0 0 m
+493.2283 0 l
+S
+n
+0 0 m
+0 106.5 l
+S
+n
+493.2283 0 m
+493.2283 106.5 l
+S
+n
+0 87.5 m
+493.2283 87.5 l
+S
+n
+0 70 m
+493.2283 70 l
+S
+n
+0 52.5 m
+493.2283 52.5 l
+S
+n
+0 35 m
+493.2283 35 l
+S
+n
+0 17.5 m
+493.2283 17.5 l
+S
+n
+96.37795 0 m
+96.37795 106.5 l
+S
+n
+416.6929 0 m
+416.6929 106.5 l
+S
+Q
+Q
+Q
+0.917647 0.956863 0.94902 rg
+0.733333 0.847059 0.819608 RG
+n
+56.02362 505.7835 m
+539.252 505.7835 l
+542.016 505.7835 544.252 508.0195 544.252 510.7835 c
+544.252 548.9724 l
+544.252 551.7364 542.016 553.9724 539.252 553.9724 c
+56.02362 553.9724 l
+53.25962 553.9724 51.02362 551.7364 51.02362 548.9724 c
+51.02362 510.7835 l
+51.02362 508.0195 53.25962 505.7835 56.02362 505.7835 c
+h
+B*
+q
+1 0 0 1 65.19685 516.3685 cm
+q
+BT
+1 0 0 1 0 21.3 Tm
+9.7 TL
+/F2-0 7.8 Tf
+0.372549 0.454902 0.490196 rg
+(Budget check\072) Tj
+/F1-0 7.8 Tf
+( the old total excluded a purchased laser and is withdrawn\056 Add the laser\054 webcam and DIY rider costs from actual) Tj
+T*
+(prices\054 then check the combined total against the Rs 1\054500 ceiling before buying\056 Choose a laser with a trustworthy safety\057class and) Tj
+T*
+(wavelength label\073 cheap unlabelled modules may not meet the safety requirement\056) Tj
+T*
+ET
+Q
+Q
+0.086275 0.517647 0.482353 rg
+n
+53.02362 485.7756 m
+52.02362 485.7756 l
+53.12922 485.7756 54.02362 486.67 54.02362 487.7756 c
+54.02362 495.7756 l
+54.02362 496.8812 53.12922 497.7756 52.02362 497.7756 c
+53.02362 497.7756 l
+51.91802 497.7756 51.02362 496.8812 51.02362 495.7756 c
+51.02362 487.7756 l
+51.02362 486.67 51.91802 485.7756 53.02362 485.7756 c
+h
+f*
+0.090196 0.231373 0.290196 rg
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 59.02362 488.7756 Tm
+(Assembly and alignment) Tj
+T*
+ET
+0.086275 0.517647 0.482353 rg
+n
+66.61417 464.6811 m
+66.61417 468.5949 63.44139 471.7677 59.52756 471.7677 c
+55.61373 471.7677 52.44094 468.5949 52.44094 464.6811 c
+52.44094 460.7673 55.61373 457.5945 59.52756 457.5945 c
+63.44139 457.5945 66.61417 460.7673 66.61417 464.6811 c
+f*
+1 1 1 rg
+BT
+/F2-0 7 Tf
+8.4 TL
+ET
+BT
+1 0 0 1 57.58156 457.878 Tm
+(1) Tj
+T*
+ET
+0.090196 0.231373 0.290196 rg
+BT
+/F2-0 8.4 Tf
+10.08 TL
+ET
+BT
+1 0 0 1 76.53543 468.9331 Tm
+(Check the borrowed bench) Tj
+T*
+ET
+q
+1 0 0 1 76.53543 453.5638 cm
+q
+0.372549 0.454902 0.490196 rg
+BT
+1 0 0 1 0 1.9 Tm
+/F1-0 7.8 Tf
+9.7 TL
+(Measure the rail profile and rider clamp dimensions first\056 Make or adapt the riders to slide and lock securely on that exact bench\056) Tj
+T*
+ET
+Q
+Q
+0.086275 0.517647 0.482353 rg
+n
+66.61417 440.8079 m
+66.61417 444.7217 63.44139 447.8945 59.52756 447.8945 c
+55.61373 447.8945 52.44094 444.7217 52.44094 440.8079 c
+52.44094 436.894 55.61373 433.7213 59.52756 433.7213 c
+63.44139 433.7213 66.61417 436.894 66.61417 440.8079 c
+f*
+1 1 1 rg
+BT
+/F2-0 7 Tf
+8.4 TL
+ET
+BT
+1 0 0 1 57.58156 434.0047 Tm
+(2) Tj
+T*
+ET
+0.090196 0.231373 0.290196 rg
+BT
+/F2-0 8.4 Tf
+10.08 TL
+ET
+BT
+1 0 0 1 76.53543 445.0598 Tm
+(Mount laser and wire) Tj
+T*
+ET
+q
+1 0 0 1 76.53543 419.9906 cm
+q
+0.372549 0.454902 0.490196 rg
+BT
+1 0 0 1 0 11.6 Tm
+/F1-0 7.8 Tf
+9.7 TL
+(Fix the purchased laser in a rigid DIY rider\056 Make a vertical wire frame with upper and lower clips\073 stretch the sample gently\054 with clips) Tj
+T*
+(outside the beam\056) Tj
+T*
+ET
+Q
+Q
+0.086275 0.517647 0.482353 rg
+n
+66.61417 407.2346 m
+66.61417 411.1485 63.44139 414.3213 59.52756 414.3213 c
+55.61373 414.3213 52.44094 411.1485 52.44094 407.2346 c
+52.44094 403.3208 55.61373 400.148 59.52756 400.148 c
+63.44139 400.148 66.61417 403.3208 66.61417 407.2346 c
+f*
+1 1 1 rg
+BT
+/F2-0 7 Tf
+8.4 TL
+ET
+BT
+1 0 0 1 57.58156 400.4315 Tm
+(3) Tj
+T*
+ET
+0.090196 0.231373 0.290196 rg
+BT
+/F2-0 8.4 Tf
+10.08 TL
+ET
+BT
+1 0 0 1 76.53543 411.4866 Tm
+(Set the optical distance) Tj
+T*
+ET
+q
+1 0 0 1 76.53543 396.1173 cm
+q
+0.372549 0.454902 0.490196 rg
+BT
+1 0 0 1 0 1.9 Tm
+/F1-0 7.8 Tf
+9.7 TL
+(Set the wire\055to\055screen distance to 1500 mm\056 Keep the screen perpendicular to the beam and put a nonreflective beam stop behind it\056) Tj
+T*
+ET
+Q
+Q
+0.086275 0.517647 0.482353 rg
+n
+66.61417 383.3614 m
+66.61417 387.2752 63.44139 390.448 59.52756 390.448 c
+55.61373 390.448 52.44094 387.2752 52.44094 383.3614 c
+52.44094 379.4476 55.61373 376.2748 59.52756 376.2748 c
+63.44139 376.2748 66.61417 379.4476 66.61417 383.3614 c
+f*
+1 1 1 rg
+BT
+/F2-0 7 Tf
+8.4 TL
+ET
+BT
+1 0 0 1 57.58156 376.5583 Tm
+(4) Tj
+T*
+ET
+0.090196 0.231373 0.290196 rg
+BT
+/F2-0 8.4 Tf
+10.08 TL
+ET
+BT
+1 0 0 1 76.53543 387.6134 Tm
+(Aim and frame) Tj
+T*
+ET
+q
+1 0 0 1 76.53543 362.5441 cm
+q
+0.372549 0.454902 0.490196 rg
+BT
+1 0 0 1 0 11.6 Tm
+/F1-0 7.8 Tf
+9.7 TL
+(Aim the beam through the wire midpoint\056 Put the webcam about 30 cm before the screen\054 below the beam\054 focused on the card\056 Keep) Tj
+T*
+(the live pattern centered\056) Tj
+T*
+ET
+Q
+Q
+0.086275 0.517647 0.482353 rg
+n
+66.61417 349.7882 m
+66.61417 353.702 63.44139 356.8748 59.52756 356.8748 c
+55.61373 356.8748 52.44094 353.702 52.44094 349.7882 c
+52.44094 345.8744 55.61373 342.7016 59.52756 342.7016 c
+63.44139 342.7016 66.61417 345.8744 66.61417 349.7882 c
+f*
+1 1 1 rg
+BT
+/F2-0 7 Tf
+8.4 TL
+ET
+BT
+1 0 0 1 57.58156 342.985 Tm
+(5) Tj
+T*
+ET
+0.090196 0.231373 0.290196 rg
+BT
+/F2-0 8.4 Tf
+10.08 TL
+ET
+BT
+1 0 0 1 76.53543 354.0402 Tm
+(Check the geometry) Tj
+T*
+ET
+q
+1 0 0 1 76.53543 328.9709 cm
+q
+0.372549 0.454902 0.490196 rg
+BT
+1 0 0 1 0 11.6 Tm
+/F1-0 7.8 Tf
+9.7 TL
+(The wire is vertical\054 the beam is horizontal\054 and the nearest dark minima should appear on both sides of the central bright band\056 Shade) Tj
+T*
+(out room light\056) Tj
+T*
+ET
+Q
+Q
+0.933333 0.960784 0.964706 rg
+0.792157 0.847059 0.862745 RG
+n
+56.02362 51.02362 m
+539.252 51.02362 l
+542.016 51.02362 544.252 53.25962 544.252 56.02362 c
+544.252 102.7165 l
+544.252 105.4805 542.016 107.7165 539.252 107.7165 c
+56.02362 107.7165 l
+53.25962 107.7165 51.02362 105.4805 51.02362 102.7165 c
+51.02362 56.02362 l
+51.02362 53.25962 53.25962 51.02362 56.02362 51.02362 c
+h
+B*
+q
+1 0 0 1 65.19685 74.14331 cm
+q
+BT
+1 0 0 1 0 11.6 Tm
+-0.100996 Tw
+9.7 TL
+/F2-0 7.8 Tf
+0.372549 0.454902 0.490196 rg
+(Position guide\072) Tj
+/F1-0 7.8 Tf
+( Rider 1 holds the laser\073 Rider 2 holds the DIY wire frame\073 Rider 3 supports the screen\056 Keep the screen 1500 mm from) Tj
+T*
+0 Tw
+(the wire\056 The camera is separately supported about 30 cm in front of the screen and below the beam\056) Tj
+T*
+ET
+Q
+Q
+Q
+
+
+endstream
 endobj
 13 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 3329
+/Contents 14 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 15 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+14 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 3329
 >>
 stream
-Gatm=>Ar:T(4Ml__+2!(0VV*1<.[4hflU)!>GSO9qbj*6b]#[ZFK;5-`'AeLI\anT4HAG)M%Pg3'7"g4q4/JD8:hpqIr?8m?<rb-5;U/SEkNho:dM8a6f)(OBMp+Wa9YL#j#P0Cr-c(X[@!D\$'Bq;BeD28AlP`rO[530O"6Z1BeC[)8gXP;_Rr:)R<Gj".'lr?ZXkSYCsbj1R\W'`O@7NM(XT$&(Vd][l0==RDgm-+g[u*<qJUEQUR;=_nIq]b,D](5,?"-'6Rg!VeCS8;D2*)2](V;'bBeN:m2&[/444XceEpdtBMGM:9VE3FKoIe6DG&9-Oi$Nr6IfR\#Xu;FUfHIOTZOHehfbo`N+LJiRT(MGF?(BI]d)WYl5HT%"m\6JmO(/ZP'!g4:K=0pj*NrQG,o%;597uLF9BqPp-=@B94QND,%WNbl69#7J^=.VhYeAul;cl43Ak-)L.EJ$.O1l=="DGb<!phbpmn5UoX%^Y+K*X/mj%P(!pgP]@dO-:)+_?qRRp6hb\4$Dco'OEqiP,X`uRnWVpbOG[hIHE8)4\U4%8k^$`+s^9`8KB:7`%=mmjZ'Tk&EqYV/>>>]NL,Q/mk'=fs.d0X+^%oKH<FE@`]i#a<,d.VL"o"K5iPZ<]n$iC/$n8?hR8p`R4WMf>kO6ai,W%YH<%$`9)3-9IF:md%)_79C2E\n@*@mVP/BXmPDX16LMd6"Ft=`iQpoRQeNR_J@&%Z0!%`*Et;8B?"gRS]X5g8,CQsN,"d67)<o^3]o;u$u&YXI"kFr'EZ:U%eGgF)t.WUGG]Fhj@6h@?eTLO+-O*WdfG"$U([TP6ep&+V9u:heM>(AB]I94l1'%pjR;kp*cl#eqZ<*`C>kb+\mnrtb]:TaO]Yu_OPri)7E-Rr3Gc\HQ\CY9OO#-[o+hT51S-*Ia?_7a6U?<34Kr>nl42H98ij%3%\d&TiedXOSEp5$?BiL#RPF'>/RGqGpM?HAlO)uqJfn@?9P*",,%cTQc&%m!'Z0JE[*']u8!P?&RSbO)eC(LlO*ocF^?YYGG<KF(m<X'1*h3/sEB[!*TG0uYX8'cAcOo_jf=!"K)RfTaono:3Am7/aB6?.JEa.pQ[l0Y,P^Pc&g<9c?LNrrql-3$_P[#4fj&Aan8R)*lhWe:R2q*?1+H%f#bs#3qUE5qV(Nm:9oaC+f6J@1Pn*X^a=4n5b_'Ur69sg6LTm=XX7!fG5[.fsJYN.-$@*9`ZbTd2VAVNd%+X>^a/>YdtjFR%\'D!?]]E9A7HS"0)R-9Uc$P,efAU2KK>0!#:`_6%1TC(-lM4YaT./H2gjB4-iWTk$L,M(Ujs!smUg>A#MLt1^_`9d/C=+ODN6InjuQqRo&=L88o$q]#c?`d^&BdKmBR#pH;SX3o^BJ*0%7![Hq;-rs`:Tn.KMM$RP#i^@T'.%84$89S4.EX[SUl^ri$K#!tf>/V-@eNogR);U@-CruE+f:.G25Z8?a@l8.TC(8)c--gHX]RrVT2@Bd5,h)$JPF_2[p@JHG,KO[4m`[R+;60aKMokm?ucoh77o9l,8l9e/<N1QaqV2I8_]VW`&]La,0?TWN63?,1.Vb.>L2`M_b_+Z8Oe:W'M1F/j7OCt>m7>M(0Rt73k'$CcK9Rco12:Z!@"oZ1]3N^kJ/-45rk)GQ\#m%AIHMspIRYd'T,I*$[assMmmhcK.eG^fOFhZ+d\F(DK;95,Dk-MEp2d/643O")T/oOclMEmP"Oqk(*V^]cmNj4*cElM05#$/QQM9:?WS)V6*!DNiAaT1DO:oXAF/utg7u>8Ccom6:Eq$Q.2UX;R"Q(U00CC%@E)uHUM'q/E(EYh5K_Hu8W&U@]pOJITR82;(.ee`.cE)g*>4R_@6nr^l.j!k-DALo_<8b!IY!+k,o_0:R=c#*D5LCQ\'Hgp>l:e,-8a+Kjm)8<1so#(L4DdldBI442s@?PkTU8=R%'e\3M;Ei"d/aZqQ_#1[jSe.G`V!n`H4`/,,1(8RUYtu;<6`mJp>fu-o#R$MC^=.@?OL*f1Edr`ZE*]C!`a[$Di(YqH#?_M8=r(R#*8i)(Y96M.o^fc=81^,\EbmjZ2HK"iRMZ1Q`!D+?![QA&oi_]UhK"-9<]`As%1Qh`!?RTp4T1]5@HfV]mc.[2+1_MYs%5D%&6`N2%M)f+d'5porBk-dm+G<I5B/Ci^V.8ukT(lu[SgRS4MEY8;e;HMNqRm!!,2a%rmt^5ZQ+Td&SINu>s^4TU`r0T;L>R3D5"'DG&9YV=4>a%M;OA\En.ga#X*`kX9g6UU)XYNM"'@31=`?R22spT4ka3Ke&ZbR>.l?l7T!Og+16"hW(`V5pqq7&H!'W59/&DGc;Y^rLJ.M:T6%g^d`>/./auUtbG59\Kl$-i1Wq^H]6t5K@LG;6_+uO#HKmA8eNe\2J0r#Chk[@;e"8c#&q2T!>b,=R/$g]1k7G*2iTK?#S#tcK9FoKk">)*]]^b*SL_#Cieb_;sAp])0k-qf-I6K>T@B#!^\;XpS8@V;OBnd-&4aNg[8R6bjiU]Em&f;)mo7)D.N2_;\9eJC;"SI3";U:_(/^0R'Xe(%gJZnP\Ct@4f)S3jQ8O&'ZC;^e%R5<F.)muE&Ug%Ud8;D^Lh[AaShG<%u<nVcLX/d*H=SU&m/<qRpAVD:ZPloT$$_]qkDa[DLe6nj2.ZJE3a?1p@7jO>Nt5h[c<:0O'$iP^Ri%0*6*j$OrqEGp8aYGB(E-.FYNm%7bsDh_eese1@k.h0MZW,ipLMWoocT6+W$fG0n?BQo[EZ>V]TP$;Trcg^6eN7%_HfGG0e:u0:2'4ipVs;5M/"F!hRZP1-4!lJ8T%b(,n0h9:ecAmV:>)]6fRT![mZ?];q0nM7LG1md?dih*'ou(>2!Q]SHQqN!SjsE_-Es,]\*pUWJ6p#'X^W0/J79nfEVBh.)SZLPa;jKCFC^0?_*h;o(SWH#&rB@.;iEI8>&WMOus;HTPWY?L?Y/lu^^aj##QcrK':X(`);\a59.9e=)7kU8atWA%"e;6;J0hK_`c4DAOos"(st#34mZ$dO2CKmm6Dj<U9.S&Aqa$=Dh0ur]B]IlG!U=j0;)MHh.9WTP\bnl'%E@#pfEH:i<C.pZ2N<Xgp[H8=diRk'\':W84c@iI9u/e'$7^O,IM/:]Op9LQM,j`N+#X[<f-f[bIgcoq+HFo"&TJ3:7NW;/]o#%J?^fY1I`=%4.%tGIY0rS-_OXEn=uB(tmBpmeR#[;OY+RorE,:Vn;-Q31<1QhC7(/`lYm2eAE3T_pFg"Xh3&nmnS1rKC'&2%CbImf=`P3]Bn$:j![4#^&qog#jcokhKA35G*(8S!SLpk<<~>endstream
+Gatm=>Ar:T(4Ml__+2!(0VV*1<.[4hflU)!>GSO9qbj*6b]#[ZFK;5-`'AeLI\anT4HAG)M%Pg3'7"g4q4/JD8:hpqIr?8m?<rb-5;U/SEkNho:dM8a6f)(OBMp+Wa9YL#j#P0Cr-c(X[@!D\$'Bq;BeD28AlP`rO[530O"6Z1BeC[)8gXP;_Rr:)R<Gj".'lr?ZXkSYCsbj1R\W'`O@7NM(XT$&(Vd][l0==RDgm-+g[u*<qJUEQUR;=_nIq]b,D](5,?"-'6Rg!VeCS8;D2*)2](V;'bBeN:m2&[/444XceEpdtBMGM:9VE3FKoIe6DG&9-Oi$Nr6IfR\#Xu;FUfHIOTZOHehfbo`N+LJiRT(MGF?(BI]d)WYl5HT%"m\6JmO(/ZP'!g4:K=0pj*NrQG,o%;597uLF9BqPp-=@B94QND,%WNbl69#7J^=.VhYeAul;cl43Ak-)L.EJ$.O1l=="DGb<!phbpmn5UoX%^Y+K*X/mj%P(!pgP]@dO-:)+_?qRRp6hb\4$Dco'OEqiP,X`uRnWVpbOG[hIHE8)4\U4%8k^$`+s^9`8KB:7`%=mmjZ'Tk&EqYV/>>>]NL,Q/mk'=fs.d0X+^%oKH<FE@`]i#a<,d.VL"o"K5iPZ<]n$iC/$n8?hR8p`R4WMf>kO6ai,W%YH<%$`9)3-9IF:md%)_79C2E\n@*@mVP/BXmPDX16LMd6"Ft=`iQpoRQeNR_J@&%Z0!%`*Et;8B?"gRS]X5g8,CQsN,"d67)<o^3]o;u$u&YXI"kFr'EZ:U%eGgF)t.WUGG]Fhj@6h@?eTLO+-O*WdfG"$U([TP6ep&+V9u:heM>(AB]I94l1'%pjR;kp*cl#eqZ<*`C>kb+\mnrtb]:TaO]Yu_OPri)7E-Rr3Gc\HQ\CY9OO#-[o+hT51S-*Ia?_7a6U?<34Kr>nl42H98ij%3%\d&TiedXOSEp5$?BiL#RPF'>/RGqGpM?HAlO)uqJfn@?9P*",,%cTQc&%m!'Z0JE[*']u8!P?&RSbO)eC(LlO*ocF^?YYGG<KF(m<X'1*h3/sEB[!*TG0uYX8'cAcOo_jf=!"K)RfTaono:3Am7/aB6?.JEa.pQ[l0Y,P^Pc&g<9c?LNrrql-3$_P[#4fj&Aan8R)*lhWe:R2q*?1+H%f#bs#3qUE5qV(Nm:9oaC+f6J@1Pn*X^a=4n5b_'Ur69sg6LTm=XX7!fG5[.fsJYN.-$@*9`ZbTd2VAVNd%+X>^a/>YdtjFR%\'D!?]]E9A7HS"0)R-9Uc$P,efAU2KK>0!#:`_6%1TC(-lM4YaT./H2gjB4-iWTk$L,M(Ujs!smUg>A#MLt1^_`9d/C=+ODN6InjuQqRo&=L88o$q]#c?`d^&BdKmBR#pH;SX3o^BJ*0%7![Hq;-rs`:Tn.KMM$RP#i^@T'.%84$89S4.EX[SUl^ri$K#!tf>/V-@eNogR);U@-CruE+f:.G25Z8?a@l8.TC(8)c--gHX]RrVT2@Bd5,h)$JPF_2[p@JHG,KO[4m`[R+;60aKMokm?ucoh77o9l,8l9e/<N1QaqV2I8_]VW`&]La,0?TWN63?,1.Vb.>L2`M_b_+Z8Oe:W'M1F/j7OCt>m7>M(0Rt73k'$CcK9Rco12:Z!@"oZ1]3N^kJ/-45rk)GQ\#m%AIHMspIRYd'T,I*$[assMmmhcK.eG^fOFhZ+d\F(DK;95,Dk-MEp2d/643O")T/oOclMEmP"Oqk(*V^]cmNj4*cElM05#$/QQM9:?WS)V6*!DNiAaT1DO:oXAF/utg7u>8Ccom6:Eq$Q.2UX;R"Q(U00CC%@E)uHUM'q/E(EYh5K_Hu8W&U@]pOJITR82;(.ee`.cE)g*>4R_@6nr^l.j!k-DALo_<8b!IY!+k,o_0:R=c#*D5LCQ\'Hgp>l:e,-8a+Kjm)8<1so#(L4DdldBI442s@?PkTU8=R%'e\3M;Ei"d/aZqQ_#1[jSe.G`V!n`H4`/,,1(8RUYtu;<6`mJp>fu-o#R$MC^=.@?OL*f1Edr`ZE*]C!`a[$Di(YqH#?_M8=r(R#*8i)(Y96M.o^fc=81^,\EbmjZ2HK"iRMZ1Q`!D+?![QA&oi_]UhK"-9<]`As%1Qh`!?RTp4T1]5@HfV]mc.[2+1_MYs%5D%&6`N2%M)f+d'5porBk-dm+G<I5B/Ci^V.8ukT(lu[SgRS4MEY8;e;HMNqRm!!,2a%rmt^5ZQ+Td&SINu>s^4TU`r0T;L>R3D5"'DG&9YV=4>a%M;OA\En.ga#X*`kX9g6UU)XYNM"'@31=`?R22spT4ka3Ke&ZbR>.l?l7T!Og+16"hW(`V5pqq7&H!'W59/&DGc;Y^rLJ.M:T6%g^d`>/./auUtbG59\Kl$-i1Wq^H]6t5K@LG;6_+uO#HKmA8eNe\2J0r#Chk[@;e"8c#&q2T!>b,=R/$g]1k7G*2iTK?#S#tcK9FoKk">)*]]^b*SL_#Cieb_;sAp])0k-qf-I6K>T@B#!^\;XpS8@V;OBnd-&4aNg[8R6bjiU]Em&f;)mo7)D.N2_;\9eJC;"SI3";U:_(/^0R'Xe(%gJZnP\Ct@4f)S3jQ8O&'ZC;^e%R5<F.)muE&Ug%Ud8;D^Lh[AaShG<%u<nVcLX/d*H=SU&m/<qRpAVD:ZPloT$$_]qkDa[DLe6nj2.ZJE3a?1p@7jO>Nt5h[c<:0O'$iP^Ri%0*6*j$OrqEGp8aYGB(E-.FYNm%7bsDh_eese1@k.h0MZW,ipLMWoocT6+W$fG0n?BQo[EZ>V]TP$;Trcg^6eN7%_HfGG0e:u0:2'4ipVs;5M/"F!hRZP1-4!lJ8T%b(,n0h9:ecAmV:>)]6fRT![mZ?];q0nM7LG1md?dih*'ou(>2!Q]SHQqN!SjsE_-Es,]\*pUWJ6p#'X^W0/J79nfEVBh.)SZLPa;jKCFC^0?_*h;o(SWH#&rB@.;iEI8>&WMOus;HTPWY?L?Y/lu^^aj##QcrK':X(`);\a59.9e=)7kU8atWA%"e;6;J0hK_`c4DAOos"(st#34mZ$dO2CKmm6Dj<U9.S&Aqa$=Dh0ur]B]IlG!U=j0;)MHh.9WTP\bnl'%E@#pfEH:i<C.pZ2N<Xgp[H8=diRk'\':W84c@iI9u/e'$7^O,IM/:]Op9LQM,j`N+#X[<f-f[bIgcoq+HFo"&TJ3:7NW;/]o#%J?^fY1I`=%4.%tGIY0rS-_OXEn=uB(tmBpmeR#[;OY+RorE,:Vn;-Q31<1QhC7(/`lYm2eAE3T_pFg"Xh3&nmnS1rKC'&2%CbImf=`P3]Bn$:j![4#^&qog#jcokhKA35G*(8S!SLpk<<~>
+endstream
+endobj
+15 0 obj
+<<
+/F1 6 0 R
+/F2 8 0 R
+/F3 10 0 R
+>>
 endobj
 xref
-0 14
+0 16
 0000000000 65535 f 
-0000000061 00000 n 
-0000000112 00000 n 
-0000000219 00000 n 
-0000000331 00000 n 
-0000000536 00000 n 
-0000000741 00000 n 
-0000000846 00000 n 
-0000001051 00000 n 
-0000001120 00000 n 
-0000001440 00000 n 
-0000001512 00000 n 
-0000005045 00000 n 
-0000008346 00000 n 
+0000000015 00000 n 
+0000000156 00000 n 
+0000000229 00000 n 
+0000000278 00000 n 
+0000000544 00000 n 
+0000009743 00000 n 
+0000009850 00000 n 
+0000009957 00000 n 
+0000010069 00000 n 
+0000010181 00000 n 
+0000010287 00000 n 
+0000010555 00000 n 
+0000029674 00000 n 
+0000029876 00000 n 
+0000033298 00000 n 
 trailer
 <<
-/ID 
-[<26a265758cf94abfaab030a2d22ee9c0><26a265758cf94abfaab030a2d22ee9c0>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 9 0 R
-/Root 8 0 R
-/Size 14
+/Size 16
+/Root 3 0 R
+/Info 1 0 R
 >>
 startxref
-11767
+33351
 %%EOF

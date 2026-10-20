@@ -10,30 +10,12 @@ measurements. This is a complete automatic demonstration: the unknown wire's
 fringes are read by software, not by eye. The laptop replaces the OV7670/Pico
 camera electronics and display.
 
-The expected classroom build is under **₹1,500**, assuming the laptop and a
-teacher-approved low-power laser are borrowed and the mount is made from
-cardboard/wood and lab clamps. An inexpensive webcam's ability to focus and
-resolve the fringes must be checked before the presentation; price and “720p”
-alone do not guarantee that.
+The college optical bench will be borrowed. The red laser will be purchased,
+and the riders and component holders will be made or adapted to fit that bench.
+Measure the bench rail before making the riders. Choose a labelled low-power
+laser with a stated wavelength and follow the teacher's safety requirements.
 
-## What to build
-
-### Parts and budget
-
-| Part                             |         Target cost | Notes                                                                                            |
-| -------------------------------- | ------------------: | ------------------------------------------------------------------------------------------------ |
-| USB UVC webcam                   |           ₹300-500 | Choose one that can focus sharply on a card at 20-40 cm; borrow one if possible.                 |
-| Red laser                        |        ₹0 borrowed | Use a labelled, teacher-approved low-power unit. Do not buy/use an unlabelled high-power module. |
-| Base, holders, hood, screen card |           ₹100-250 | Use a straight wooden strip/cardboard, lab clamps, matte white card, and black card.             |
-| Sample wire / hair               |              ₹0-50 | Use a straight sample held gently taut.                                                          |
-| Existing laptop                  |                 ₹0 | Runs the webcam and Python/OpenCV display.                                                       |
-| **Expected total**         | **₹400-800** | Shipping and optional purchases may add cost; keep a ₹1,500 ceiling.                            |
-
-Borrow a screw gauge and one known reference wire from the lab if possible.
-The reference measurement makes the final diameter less sensitive to the
-webcam's nominal resolution and the exact laser wavelength.
-
-### Physical layout
+## Physical layout
 
 ```text
 SIDE VIEW (not to scale)
@@ -97,8 +79,9 @@ starts, so an old camera position cannot silently supply a stale scale.
 
 ## Build and run
 
-1. Fix the laser and wire holder to the base. Stretch the sample vertically,
-   gently. Align the beam through its midpoint.
+1. Make/adapt riders to fit the borrowed bench. Secure the purchased laser and
+   wire holder to their own riders. Stretch the sample vertically, gently, and
+   align the beam through its midpoint.
 2. Put the matte screen 1500 mm behind the wire. Add a black beam stop behind
    the screen. Make sure the beam ends there.
 3. Mount the webcam about 30 cm in front of the screen, slightly below the beam.
