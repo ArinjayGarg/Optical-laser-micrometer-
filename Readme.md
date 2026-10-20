@@ -81,7 +81,7 @@ python -m pip install opencv-python numpy scipy
 From the project folder, run:
 
 ```text
-python laser_micrometer.py
+python main.py
 ```
 
 The camera index is currently set in the script as `CAM_INDEX = 1`. If the
@@ -139,10 +139,10 @@ reflective surface.
 
 ## Project files
 
-- `laser_micrometer.py` — current webcam-based live analysis program.
+- `main.py` — current webcam-based live analysis program.
 - `optical-laser-micrometer-model.svg` — project layout illustration; update
   it if its geometry or signal-flow labels disagree with this README.
-- `output/pdf/optical-laser-micrometer-blueprint.pdf` — printable blueprint;
+- `optical-laser-micrometer-blueprint.pdf` — printable blueprint;
   check that its distances and calibration description match this 500 mm,
   ruler-calibrated version before submitting it.
 
